@@ -8,26 +8,24 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="/assets/img/hwhi_cover.jpg" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection;About the Here We Have Idaho magazine" %} 
 
-## About CollectionBuilder CSV
+## About the Collection
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+{% include feature/image.html objectid="/assets/img/hwhi_cover.jpg" width="25"%}
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+Digital back issues of *Here We Have Idaho* magazine may be found here. A more complete collection is available in hardcopy in University's main library.  
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+## About the *Here We Have Idaho* magazine
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+The magazine started in 1998 and is the offical magazine of the University of Idaho. Managed by University Communications and Marketing, it is published twice a year with a circulation of over 100,000 readers. Supported by private funds from the University of Idaho Foundation, Inc., it is the continuation of a series of magazines providing information about the University. Its immediate predecessor was *The University of Idaho* magazine which ran from 1992-1998. 
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+The current issue may be found at the *Here We Have Idaho* home page as well as information on digital subscriptions, see the link below. 
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+{% include feature/button.html text="Current Issue" link="https://www.uidaho.edu/news/here-we-have-idaho/" color="info" size="lg" %}
+
+
+<div class="clearfix"></div>
