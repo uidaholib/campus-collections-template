@@ -18,7 +18,7 @@ The Collection on Vandal Training and Scouting Films spans the years 1925 to 199
 
 Professional cinematographers shot the footage for the purposes of instruction and scouting. None of the original footage includes audio because audio was unnecessary for their purposes. Each video is identified by game date because the original footage identified them as such. However, in some instances, only portions of a game, such as special teams plays, were recorded.
 
-{% include feature/item-video-embed.html objectid="vandalvideo2"%}
+{% include feature/video.html objectid="vandalvideo2"%}
 
 The cinematographers often recorded and developed the films themselves, using the local labs at away games. They then broke these films into offensive and defensive reels for the coaches to use, and the original film went with the head coach for the subsequent Vandal Boosters meeting. This footage was also used to show both the football and basketball games highlights on Idaho and Washington Television stations.
 
