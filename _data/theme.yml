@@ -17,6 +17,10 @@ home-banner-image-position: center # Default is top
 carousel-height: # in px, but don't include the "px"; default is 450.
 # carousel can feature specific item types: image,pdf,youtube,thumbs
 carousel-type: youtube
+featured-subjects: #separate semi-colon(';') - if left blank, will be automatically generated to create top 5 subjects
+featured-subjects-max: 6 # set number of top subjects to display if auto generating
+featured-locations: Memorial Gymnasium; Neale Stadium; Kibbie Dome;  #separate by semi-colon(';') - if left blank, will be automatically generated to create top 5 locations
+featured-locations-max: 3
 content-alert: false # true / false
 
 ##########
@@ -28,15 +32,15 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but inc
 ##########
 # SUBJECTS PAGE
 #
-subjects-fields: subject;creator # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-subjects-min: 2 # min size for subject cloud, too many terms = slow load time!
+subjects-fields: stadiums # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # LOCATIONS PAGE
 #
-locations-fields: location # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-locations-min: 2 # min size for subject cloud, too many terms = slow load time!
+locations-fields: opponents # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+locations-min: 1 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
