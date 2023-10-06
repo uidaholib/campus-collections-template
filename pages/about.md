@@ -8,26 +8,21 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="http://www.lib.uidaho.edu/digital/objects/commencement/commencement2.jpg" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection" %} 
 
-## About CollectionBuilder CSV
+## About the Collection
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+The U of I Commencement Programs collection provides access to digitized copies of Commencement Programs, Degrees Conferred, and Candidates for Degrees pamphlets. The Commencement Programs were issued yearly until the 104th commencement, and semiannually afterwards. 
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+Visit the following digital collections to explore photographs from the Commencement ceremonies at the University of Idaho.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+{% include feature/button.html text="Argonaut Photograph Collection" link="https://www.lib.uidaho.edu/digital/argonautphotos/browse.html#commencements" color="info" size="med" %}
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+{% include feature/button.html text="Gem of the Mountains Yearbook Photographic Archive" link="https://www.lib.uidaho.edu/digital/gemphotos/browse.html#commencement" color="info" size="med" %}
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+{% include feature/button.html text="University of Idaho Historical Photos" link="https://www.lib.uidaho.edu/digital/uihistorical/browse.html#commencement" color="info" size="med" %}
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+<div class="clearfix"></div>
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
