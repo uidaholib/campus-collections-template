@@ -1,15 +1,17 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 creator,Creator,,,DCTERMS.creator,creator
-archival date,Date Created (Archival Standard)
+archival_date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
+president,President,true,,,,
+commencement_address,Commencement Address Speaker,true,,,
+guest_speakers,Guest Speakers,true,,
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
-findingaid,Finding Aid,,true
+findingaid,Finding Aid,,,,
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
