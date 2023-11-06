@@ -8,26 +8,22 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="argonautphotos263" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+# The Argonaut
 
-## About CollectionBuilder CSV
+The University of Idaho student run newspaper, the [Argonaut](https://www.lib.uidaho.edu/digital/argonaut/), has been in print since 1898. G. W. Wolfe was the first Editor-in-Chief, and those who worked in the editorial staff included Ava Sweet (Senior Editor), Susie Maxwell (Junior Editor), G. Mix (Sophomore Editor), and H. Lancaster (Freshman Editor). It was originally set to be published twice a week during an academic year. It's popularity grew, and soon it became a resources that students, staff, faculty, and the local community counted on. Today most issues are available completely [online](https://www.uiargonaut.com/), with some still printed as special publications. 
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+# About the Collection
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+The Argonaut Photograph Collection features over 700 photos taken by the Argonaut staff members between the years 1980 and 1988. The images depict sporting events, student groups, and other aspects of campus life which are essential to understanding the history of the university.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+{% include feature/image.html objectid="argonautphotos587" width="50" %}
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+The photos in this collection were donated to the U of I Library Special Collections and Archives in 1988 by Leo Ames. Ames was a longtime presence at the University of Idaho, beginning as a student in the 1950s and retiring from his position as creative director and head of publications at the U of I Publications and News Bureau in 1995. The donation was fully processed in 2018 with a complete [finding aid](https://archiveswest.orbiscascade.org/ark:80444/xv681386) prepared for patrons to view.
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+For more information on Leo Ames, see the [Leo Ames Papers](https://www.lib.uidaho.edu/digital/ames/) digital collection.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+{% include feature/image.html objectid="argonautphotos650" width="50" %}
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+<div class="clearfix"></div>
