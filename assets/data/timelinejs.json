@@ -4,7 +4,7 @@
 # current using relative_url due to jekyll bug, should be absolute_url in production!
 # to just feature parent objects of compound objects, you will want to change the where_exp below to "where_exp: 'item','item.parentid == nil'"
 ---
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: 'item', 'item.date' -%}
+{%- assign items = site.data.campus-buildings | where_exp: 'item', 'item.timeline-text' -%}
 {
     "title": {
         "media": {
@@ -13,8 +13,8 @@
           "credit": {{ site.title | jsonify }}
         },
         "text": {
-          "headline": {{ site.title | append: ' Timeline' | jsonify }},
-          "text": {{ site.description | jsonify }}
+          "headline": {{ 'University of Idaho Campus Building Timeline' | jsonify }},
+          "text": {{ 'Presenting U of I campus buildings according to their construction dates' | jsonify }}
         }
     },
     "events": [
