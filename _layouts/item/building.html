@@ -1,40 +1,49 @@
 ---
 layout: default
 gallery: true
+item-meta: true
 ---
 
 {% assign images = site.data[site.metadata] | where_exp: "item", "item.location_identifier == page.slug" %}
 
 <div class="container py-3">
-    <ul class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ '/' | absolute_url }}">Home</a></li>
-        <li class="breadcrumb-item"><a href="{{ '/buildings/index.html' | absolute_url }}">Buildings</a></li>
-        <li class="breadcrumb-item active">{{ page.title | truncatewords: 10 }}</li>
-    </ul>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/buildings/index.html' | relative_url }}">Buildings</a></li>
+        <li class="breadcrumb-item active text-dark" aria-current="page">{{ page.title | truncatewords: 10 }}</li>
+    </ol>
 
-    <div class="row pb-3">
+    <div class="row mb-3">
+
         <div class="col-md-12">
             <h2>{{ page.title }}</h2>
-            <a href="#building-info" class="btn btn-info mb-4 mt-1 mr-2" >Building Information</a>
+            <a href="#building-info" class="btn btn-outline-primary mb-4 mt-1 mr-2" >Building Information <svg class="bi icon-sprite" role="img" aria-label="Jump to Item Info">
+                <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#arrow-down"/>
+            </svg></a>
             {% unless images == empty %}
-            <a href="#image-browse" class="btn btn-outline-info mb-4 mt-1" >Browse Records</a>
+            <a href="#image-browse" class="btn btn-outline-primary mb-4 mt-1" >Browse Images <svg class="bi icon-sprite" role="img" aria-label="Jump to Item Info">
+                <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#arrow-down"/>
+            </svg></a>
             {% endunless %}
         </div>
-        <div class="col-md-6">
+
+        <div class="col-md-6 p-3">
             <figure class="figure mx-3 text-center">
-                <a href="{{ '/items/' | append: page.objectid | append: '.html' | relative_url }}">
-                    <img class="figure-img img-fluid rounded lazyload"  alt="{{ page.title | escape }}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ site.cdm-url }}/digital/iiif/{{ site.cdm-collection-id }}/{{ page.cdmid }}/full/max/0/default.jpg" >
+                <a href="{{ '/items/' | append: page.related-objectid | append: '.html' | relative_url }}">
+                    <img class="figure-img img-fluid rounded lazyload"  alt="{{ page.title | escape }}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ page.image_small }}" >
                 </a>
-                <figcaption class="figure-caption"><a href="{{ '/items/' | append: page.objectid | append: '.html' | relative_url }}">{{ page.title }}</a></figcaption>
+                <figcaption class="figure-caption"><a href="{{ '/items/' | append: page.related-objectid | append: '.html' | relative_url }}">{{ page.title }}</a></figcaption>
             </figure>
         </div>
-        <div class="col-md-6 text-center">
-            <div id="map-{{ page.slug }}" class="building-map mx-auto mb-4"></div>
+
+        <div class="col-md-6 p-3">
+            {% include item/mini-map.html map-zoom=18 %}
             <p><strong>Geographic Coordinates:</strong> {{ page.latitude }}, {{ page.longitude }}</p>
             {% if page.location_description %}
             <p><strong>Location:</strong> {{ page.location_description }}</p>
             {% endif %}
         </div>
+
     </div>
 
     <div class="row justify-content-center pt-3">
@@ -72,7 +81,7 @@ gallery: true
             <p><strong>Sources:</strong> {{ page.sources }}</p>
             {% endif %}
             {% unless images == empty %}
-            <p id="image-browse">Scroll down to browse images of the {{ page.title }}</p>
+            <h3 id="image-browse" class="mt-5">Images of {{ page.title }}</h3>
             {% endunless %}
         </div>
     </div>
@@ -81,9 +90,9 @@ gallery: true
         {% for i in images %}
         <div class="col-md-3">
             <div class="card text-center mb-3">
-                <div class="gallery-img" data-src="{{ site.cdm-url }}/digital/iiif/{{ site.cdm-collection-id }}/{{ i.cdmid }}/full/max/0/default.jpg">
-                    <img class="card-img-top lazyload" src="{{ i.image_small }}" alt="Image of {{ i.title }}">
-                </div>
+                <a class="spotlight gallery-img" data-download="true" title="{{ i.title | escape }}" data-src="{{ i.object_location | relative_url }}">
+                    <img class="card-img-top lazyload" src="{{ i.image_small | relative_url }}" alt="{{ i.title | escape }}">
+                </a>
                 <div class="card-body">
                     <div class="card-title">
                         {{ i.title }}
@@ -122,21 +131,3 @@ gallery: true
         </div>
     </div>
 </div>
-
-<script src="{{ '/leaflet/leaflet.js' | prepend: site.digital-assets }}"></script>
-<script>
-
-    var pageLatitude = "{{ page.latitude | strip }}";
-    var pageLongitude = "{{ page.longitude | strip }}";
-
-    var buildingMap = L.map('map-{{ page.slug }}').setView([pageLatitude,pageLongitude], 19);
-    
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
-    }).addTo(buildingMap);
-
-    L.marker([pageLatitude, pageLongitude]).addTo(buildingMap)
-        .bindPopup("{{ page.title }}")
-        .openPopup();
-    
-</script>
