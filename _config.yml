@@ -47,6 +47,14 @@ metadata: campus
 #     dir: 'items'
 #     extension: 'html' 
 #     filter: 'objectid'  
+page_gen:
+  - data: 'campus'
+  - data: 'campus-buildings'
+    template: 'building'
+    name: 'slug'
+    dir: 'buildings'
+    extension: 'html'
+    filter: 'slug'  
 
 ##########
 # Site/Organization Branding 

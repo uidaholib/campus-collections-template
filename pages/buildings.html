@@ -1,8 +1,11 @@
 ---
+title: Buildings
 layout: page
+permalink: /buildings/index.html
 ---
 
 <h2>Campus Buildings</h2>
+
 <p>University of Idaho campus buildings are listed here alphabetically. When available, dates and location for each building are given, along with links to more detailed information about each building.</p>
 
 {% capture letters %}{% for item in site.data.campus-buildings %}{{ item.title | slice: 0 | capitalize }};{% endfor %}{% endcapture %}
@@ -24,13 +27,11 @@ layout: page
         <h2 class="pt-4 display-4" id="{{ letter }}">{{ letter }}</h2>
     </div>
 
-    {% for b in buildings %}
-    {%- assign x = b.title | slice: 0 | capitalize -%}
-    {%- if x == letter -%}
+    {% for b in buildings %}{%- assign x = b.title | slice: 0 | capitalize -%}{%- if x == letter -%}
     <div class="col-md-4">
         <figure class="figure text-center">
-            <a href="{{ '/items/' | append: b.objectid | append: '.html' | relative_url }}">
-                <img class="figure-img img-fluid rounded lazyload w-75"  alt="{{ b.title | escape }}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ site.cdm-url }}/digital/iiif/{{ site.cdm-collection-id }}/{{ b.cdmid }}/full/max/0/default.jpg" >
+            <a href="{{ '/items/' | append: b.related-objectid | append: '.html' | relative_url }}">
+                <img class="figure-img img-fluid rounded lazyload w-75"  alt="{{ b.title | escape }}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ b.image_thumb }}" >
             </a>
         </figure>
     </div>
@@ -45,7 +46,7 @@ layout: page
     <div class="col-md-12">
         <hr class="pb-3">
     </div>
-    {% endif %}
-    {% endfor %}
+    {% endif %}{% endfor %}
+
     {% endfor %}
 </div>
