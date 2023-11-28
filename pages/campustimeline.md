@@ -5,5 +5,6 @@ permalink: /campustimeline.html
 ---
 
 <div class="py-3" markdown="1">
-{% include feature/timelinejs.html %}
+{%- assign buildings = '/assets/data/timeline-buildings.json' -%}
+{% include feature/timelinejs.html json=buildings %}
 </div>
