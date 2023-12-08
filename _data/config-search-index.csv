@@ -3,7 +3,7 @@ title,title
 date,date
 creator,creator
 description,description
-subject,subject
+subject,sport
 coverage,location
 identifier,identifier
 source,source
@@ -12,5 +12,5 @@ format,format
 language,language
 rights,rightsstatement
 relation,findingaid
-publisher,publisher
+publisher,nope
 genre,display_template
