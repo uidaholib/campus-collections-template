@@ -2,8 +2,11 @@ display_name,stub,dropdown_parent
 Home,/,
 Browse,/browse.html,
 Subjects,/subjects.html,
-Locations,/locations.html,
 Map,/map.html,
 Timeline,/timeline.html,
 Data,/data.html,
 About,/about.html,
+Articles,,
+All The World's A Stage,/stage.html,Articles
+All The World's A Stage Part 2,/stage.html,Articles
+All The World's A Stage Part 3,/stage.html,Articles
