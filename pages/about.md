@@ -32,6 +32,6 @@ Thank you for taking the time to peek into our future. It is an exciting bluepri
 
 ## About the Collection
 
-University of Idaho [Architectural and Engineering Services](https://www.uidaho.edu/infrastructure/facilities/aes) maintains the [Long Range Campus Development Plan and Illustrative Plans](https://www.uidaho.edu/infrastructure/facilities/aes/campus-development-plan).
+University of Idaho [Architectural and Engineering Services](https://www.uidaho.edu/infrastructure/facilities/aes) maintains the [Long Range Campus Development Plan and Illustrative Plans](https://www.uidaho.edu/dfa/budget-and-planning/aes/campus-development-plan).
 This collection started as an [exhibit on their web pages](https://perma.cc/GXV6-S95P) that was transferred to the library for preservation and access. 
 The materials are intended as an introduction to historical planning and development at University of Idaho's Moscow campus.
