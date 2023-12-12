@@ -1,11 +1,17 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
+artist,Artist,true,,DCTERMS.creator,creator
 archival date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
+donor,Donor
+condition,Condition
+formatoriginal,Format Original,true
+dimensions,Dimensions
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
+department,Department,true
+building,Building,true
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
@@ -13,4 +19,4 @@ findingaid,Finding Aid,,true
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
-rightsstatement,,,,DCTERMS.rights,license
+rightsstatement,Rights,,,DCTERMS.rights,license
