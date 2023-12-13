@@ -47,7 +47,7 @@ Head Librarian, Mary Belle Sweet, first brought up the notion of a 'special coll
 
 <div class="text-center">
 <figure class="figure">
-<a href="https://digital.lib.uidaho.edu/digital/api/singleitem/image/pg1/459/" target="_blank"><img src="https://digital.lib.uidaho.edu/digital/api/singleitem/image/pg1/459/default.jpg" class="figure-img img-fluid rounded" alt="Student studying in Special Collections area, 1962"></a>
+<a href="https://objects.lib.uidaho.edu/uihistorical/studying.jpg" target="_blank"><img src="https://objects.lib.uidaho.edu/uihistorical/studying.jpg" class="figure-img img-fluid rounded" alt="Student studying in Special Collections area, 1962"></a>
   <figcaption class="figure-caption">Student studying in Special Collections area, 1962</figcaption>
   </figure>
 </div>
@@ -60,7 +60,7 @@ The department was established in 2008 with an initial charge to digitize and ma
 
 <div class="text-center">
 <figure class="figure">
-<a href="https://digital.lib.uidaho.edu/digital/api/singleitem/image/ijcs/4579/" target="_blank"><img src="https://objects.lib.uidaho.edu/uihistorical/default.jpg" class="figure-img img-fluid rounded" alt="Plaque presented to Lionel Hampton from Lynn Skinner, for making the University of Idaho Lionel Hampton/Chevron Jazz Festival the world's greatest festival, Feb. 20-23, 1999"></a>
+<a href="https://objects.lib.uidaho.edu/uihistorical/lionel.jpg" target="_blank"><img src="https://objects.lib.uidaho.edu/uihistorical/lionel.jpg" class="figure-img img-fluid rounded" alt="Plaque presented to Lionel Hampton from Lynn Skinner, for making the University of Idaho Lionel Hampton/Chevron Jazz Festival the world's greatest festival, Feb. 20-23, 1999"></a>
   <figcaption class="figure-caption">Plaque presented to Lionel Hampton from Lynn Skinner, for making the University of Idaho Lionel Hampton/Chevron Jazz Festival the world's greatest festival, Feb. 20-23, 1999</figcaption>
   </figure>
 </div>
