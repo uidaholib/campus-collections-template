@@ -17,6 +17,8 @@ source-code: https://github.com/uidaholib/campus-collections-template
 # url to the shared assets folder on mainweb
 digital-assets: https://www.lib.uidaho.edu/assets
 
+objects: https://objects.lib.uidaho.edu/argonaut
+
 ##########
 # SITE SETTINGS
 #

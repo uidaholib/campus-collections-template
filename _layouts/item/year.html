@@ -1,20 +1,63 @@
 ---
-# generic fallback item page layout 
-# displays image or icon depending on "image_thumb"
-layout: item/item-page-base
+# argonaut years layout 
+layout: default
+# item-meta adds rich meta markup to the page on production build
+item-meta: true
 ---
+{% assign year = page.title %}
+{% if year == '1898' %}
+    {% assign prevyear = '/years.html' | prepend: site.baseurl %}
+{% else %}
+    {% assign prevyear = year | minus:1 | append: '.html' %}
+{% endif %}
+{% if year == '2021' %}
+    {% assign nextyear = '/years.html' | prepend: site.baseurl %}
+{% else %}
+    {% assign nextyear = year | plus:1 | append: '.html' %}
+{% endif %}
+<div class="container py-3">
 
-<div class="card mb-4 text-center">
-    <div class="card-body">
-        
-        <p>
-            {% include item/item-thumb.html %}
-        </p>
-        <div class="mt-2">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/years.html' | relative_url }}">Years</a></li>
+        <li class="breadcrumb-item active text-dark" aria-current="page">{{ page.title | truncatewords: 10 }}</li>
+    </ol>
 
-            {% include item/download-buttons.html %}
+    <img class="year-masthead" src="{{ site.objects }}/years/{{ page.masthead_img }}" alt="Argonaut {{ year }}">
+
+    <h2 class="subpagetitle"><a class="arrow" href="{{ prevyear }}" title="previous">«</a> Argonaut Issues from {{ year }} <a class="arrow" href="{{ nextyear }}" title="next">»</a></h2> 
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="thumb"> </th>
+                        <th class="sort" data-sort="issue-date">Date</th>
+                        <th class="subject">Subjects</th>
+                    </tr>
+                </thead>
+                <tbody class="list">
+                    {% assign issues = site.data.argonaut | where: "year", year %}
+                    {% for issue in issues %}
+                    <tr>
+                        <td class="issue-thumb">
+                            <div class="view-link"><a href="{{ issue.object_location }}" target="_blank" rel="noopener" title="PDF download"><img src="{{ issue.image_thumb }}" alt="issue thumbnail"><p class="pageflip">View</p></a></div>
+                        </td>
+                        <td class="issue-date" style="display:none">{{ issue.date }}</td>
+                        <td class="issue-title"><a href="{{ issue.object_location }}" target="_blank" rel="noopener" title="database item">{{ issue.title }}</a></td>
+                        <td class="issue-subject">
+                            {% if issue.description %}{{ issue.description }}<br>{% endif %}
+                            {{ issue.subject }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
 
         </div>
 
     </div>
+
 </div>
