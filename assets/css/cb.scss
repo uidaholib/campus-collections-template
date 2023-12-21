@@ -5,6 +5,13 @@
 ---
 @charset "utf-8";
 
+/* load custom font */
+@font-face {
+  font-family: 'Allan';
+  src: url('fonts/allan/allan-bold.woff2') format('woff2'), url('fonts/allan/allan-bold.woff') format('woff'), url('fonts/allan/allan-bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
 /* base variables pulled from theme.yml */
 $base-font-family: {{ site.data.theme.base-font-family | default: "'Public Sans', sans-serif" }};
 $base-font-size: {{ site.data.theme.base-font-size | default: "1.1em" }};

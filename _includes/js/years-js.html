@@ -1,0 +1,13 @@
+<!-- load DataTables with jquery bundled -->
+<script type="text/javascript" language="javascript" src="{{ '/bootstrap5/datatables/datatables.min.js' | prepend: site.digital-assets }}"></script>
+<script>
+
+$(document).ready( function () {
+    $('#yearTable').DataTable( { 
+        //"paging": false,
+        dom: 'B<"row mt-2"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>',
+        "order": [[ 2, "asc" ]]
+    } );
+} );
+
+</script>
