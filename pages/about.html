@@ -1,0 +1,56 @@
+---
+title: About
+layout: page
+permalink: /about.html
+---
+
+<div class="row justify-content-center">
+    <div class="col-md-7">
+        <h2 class="display-5">About The Argonaut</h2>
+    
+        <p>The Argonaut is the award winning student newspaper produced by the University of Idaho <a href=" https://www.uidaho.edu/current-students/department-of-student-involvement/student-media" target="_blank" rel="noopener">Student Media</a> in the Department of Student Involvement. Continuously in print since 1898, it was historically published twice a week during the academic year and distributed across campus and throughout Moscow, Idaho and Pullman, Washington. Recently, daily Argonaut publishing has moved to their <a href="https://www.uiargonaut.com/" target="_blank" rel="noopener">online edition</a>, while continuing to print limited special issues.</p>
+        <p>The pages of The Argonaut are a treasure trove of university happenings, opinions and local advertisements, offering a fascinating glimpse into the details of the past century of campus life. The Argonaut Student Newspaper digital collection complements the <a href="https://www.lib.uidaho.edu/digital/gem/index.html">Gem of the Mountain Yearbook Collection</a>, <a href="https://www.lib.uidaho.edu/digital/campus/">Campus Photograph Collection</a>, and <a href="https://www.lib.uidaho.edu/digital/uihistorical/index.html">University of Idaho Historical Photograph Collection</a> to illustrate the rich history of University of Idaho. </p>
+
+        {% include feature/image.html objectid='https://objects.lib.uidaho.edu/argonaut/gem1903_p_134.jpg' alt='historic black and white photo of three women and four men labelled Argonaut staff from 1903' %}
+
+        {% include feature/blockquote.html quote="At a meeting of the student body in the school year of '98-'99, it was decided to publish a college paper... The new paper was christened \"The Argonaut, the Searcher of the Golden Fleece.\"" source='Gem of the Mountains 1903, p.127' source-link='https://www.lib.uidaho.edu/digital/gem/1903/' %}
+
+        <h3 class="display-6">About The Collection</h3>
+
+        <p>This digital collection provides access to over 6,500 issues of the Argonaut from 1898 to 2021 in PDF format. For current articles, please visit the <a href="https://www.uiargonaut.com/" target="_blank" rel="noopener">Argonaut website</a> or their <a href="https://issuu.com/uiargonaut" target="_blank" rel="noopener">Issuu page</a>.</p> 
+        <p>The files for issues from 1898 - 2010 were created by digitizing the microfilm copies held by <a href="https://www.lib.uidaho.edu/" target="_blank" rel="noopener">University of Idaho Library</a>. The PDFs have transcripts produced by Optical Character Recognition, allowing the full text to be searched. Due to the low resolution of the microfilm source, the quality of these items is variable.</p>
+        <p>Issues since Fall 2010 are born digital PDFs created by Argonaut staff during their publishing routine. The files are transferred to the Library for preservation and access on a regular basis.</p>
+        <p>In addition to searchable full text, descriptive metadata was provided by a partial index originally created by library staff to provide access to the physical microfilm collections. In Spring 2020 (during Covid closures) a team of students reviewed all items without metadata, adding descriptions and subjects to enhance access. We would like to acknowledge the work of Dakota, Edie, Gwen, Kritika, Valerie, Alisa Melior, Kit Stokes, and Kevin Dobbins on preparing and enhancing this collection, as well as the assistance of past Student Media Manager Tara Roberts and numerous Argonaut student staff members over the years.</p>
+
+        {% include feature/blockquote.html quote="Student media serves as a focal point for student life among UI Students. We provide important forums for the exchange of ideas and opinions, information about events and news of general interest about the campus, region, nation and the world." source='Gem of the Mountains 2004, p.199' source-link='https://www.lib.uidaho.edu/digital/gem/2004/index.html' %}
+
+        <h3 class="display-6">Technical</h3>
+        <p>This website was created by U of I Library's <a href="https://www.lib.uidaho.edu/digital/">Digital Initiatives</a> using the open source static site generator <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> (project <a href="{{ site.source-code }}" target="_blank" rel="noopener">source code</a> is available). It was one of the earliest prototypes of a static web approach to digital collections that has grown into the <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener">CollectionBuilder project</a> developed at the Library. News highlights on the home page are laid out using Metafizzy's <a href="http://packery.metafizzy.co/" target="_blank" rel="noopener">Packery</a>. Table functionality is added using Jonny Strömberg's <a href="http://listjs.com/" target="_blank" rel="noopener">List.js</a>. We appreciate and value the open source community that makes these tools available to the world!</p>
+
+    </div>
+    <div class="col-md-3 mt-5 ps-4">
+
+        <div class="card mb-3 bg-payette-blue">
+            <div class="card-body">
+                <figure class="figure mx-3">
+                    <a href="{{ '/items/arg-1898-11.html' | relative_url }}">
+                        <img class="figure-img img-fluid rounded lazyload" alt="cover of newspaper featuring drawing of old administration building"  title="Argonaut 1898" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ site.objects }}/years/argonaut1898a.jpg" >
+                    </a>
+                    <figcaption class="figure-caption text-center"><a class="text-white" href="{{ image_link }}">First issue, 1898</a></figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="card mb-3 bg-payette-blue">
+            <div class="card-body">
+                <figure class="figure mx-3">
+                    <a href="{{ '/items/arg-2010-07-21.html' | relative_url }}">
+                        <img class="figure-img img-fluid rounded lazyload" alt="front page of newspaper featuring articles about freshman orientation" title="Argonaut 2010" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ site.objects }}/years/argonaut2010a.jpg" >
+                    </a>
+                    <figcaption class="figure-caption text-center"><a class="text-white" href="{{ image_link }}">Last issue scanned from microfilm, 2010</a></figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </div>
+</div>
