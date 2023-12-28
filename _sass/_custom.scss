@@ -26,3 +26,58 @@
     max-width: 250px;
     img { max-height: 250px; }
 }
+
+@mixin media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
+/* styles for highlights in packery */
+/* use grid-sizer and gutter-sizer to set columnWidth and gutter options, allows media queries to set the widths */
+.grid-sizer { width: 20%; }
+.gutter-sizer { width: 1%; }
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* grid item styles, set to responsive %. initially all grid-items are hidden, script picks random to display */
+.grid-item {
+    float: left;
+    width: 24%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.grid-xl { width:100%;}
+.grid-lg { width:49%;}
+.grid-md { width:49%;}
+.grid-sm { width:24%;}
+.grid img { width:100%;}
+/* style title-date to show on click */
+.highlight {
+    position: relative;
+}
+.reveal {
+    position: absolute;
+    top:50%;
+    transform: translate(0, -50%);
+    margin: 0;
+    display:none;
+    width: 100%;  
+    background: rgba(241,179,0, 0.35); 
+    text-decoration:none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+    z-index:97;
+    color: #191919;
+}
+/* media for medium screens */
+@include media-query(780px){
+    .reveal { 
+        font-size: 24px;
+        padding: 25px 0;
+    }
+}
