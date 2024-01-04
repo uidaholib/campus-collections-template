@@ -17,3 +17,9 @@
     font-family: 'Allan', helvetica, Helvetica, Rockwell,cursive;
 }
 
+.reader-embed { 
+    // 4x3 ratio
+    --bs-aspect-ratio: calc(3 / 4 * 100%);
+    // min height for mobile
+    min-height: 500px;
+}
