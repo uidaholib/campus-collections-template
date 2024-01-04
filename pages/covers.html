@@ -1,0 +1,21 @@
+---
+title: Gem Covers Gallery
+layout: page
+permalink: /covers.html
+gallery: true
+---
+
+<h2 class="display-4">Gem Covers Gallery</h2>
+
+<p>Click on a cover to view fullscreen gallery.</p>
+
+<div class="row row-cols-2 row-cols-md-4 row-cols-xl-6 g-4">
+    {% for g in site.data.gem %}
+    <div class="col">
+        <a class="spotlight gallery-img" data-download="true" href="{{ g.image_small }}">
+            <img class="lazyload img-fluid" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ g.image_thumb | relative_url }}" alt="{{ g.title | escape }}">
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
