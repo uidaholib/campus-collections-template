@@ -3,11 +3,6 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-// blur for content warning
-.blur {
-    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-    filter: blur(8px);
-}
 // make library logo bigger
 #footer-logo {
     height: 65px;
@@ -16,3 +11,9 @@
 .btn-outline-primary, .btn-outline-pride-gold {
     color: #191919;
 }
+
+// display fonts
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    font-family: 'Allan', helvetica, Helvetica, Rockwell,cursive;
+}
+
