@@ -26,8 +26,33 @@
 }
 
 // spines page
-.spine-year { display: none; }
-.spines a:hover .spine-year { 
-    display: block !important;
-    margin-top: -20px;
+.bg-bookshelf {
+    background-color: #3a4944;
+}
+.bookshelf {
+    max-width: 1000px;
+}
+.spines {
+    background: url('https://objects.lib.uidaho.edu/gem/images/wallpaper/12.jpg');
+}
+.spine-year { 
+    display: none; 
+    text-align: center;
+
+}
+.yearbook-spine {
+    height: 510px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 60px;
+    img { 
+        height: 450px;
+    }
+    &:hover {
+        padding-top: 10px;
+        .spine-year {
+            display: block !important;
+            height: 50px;
+        }
+    }
 }
