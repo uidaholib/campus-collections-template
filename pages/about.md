@@ -43,7 +43,7 @@ Famous Vandals can be found within the collection (see feature at right), as wel
 ## The Coloring Book
 {:.display-5}
 
-In honor of #ColorOurCollections Digital Initiatives created a free downloadable coloring book featuring illustrations from the Gem. To download and learn more, please visit the Coloring page.
+In honor of #ColorOurCollections Digital Initiatives created a free downloadable coloring book featuring illustrations from the Gem. To download and learn more, please visit the [Coloring page]({{ '/coloring.html' | relative_url }}).
 
 ## Credits
 {:.display-5}

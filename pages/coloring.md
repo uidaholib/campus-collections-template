@@ -1,10 +1,14 @@
 ---
-title: Gem Coloring
+title: Gem Coloring Books
 layout: page
 permalink: /coloring.html
 ---
 
-Gem Coloring Books
+## Gem Coloring Books
+{:.display-4}
+
+<div class="row">
+<div class="col-md-8" markdown="1">
 
 Get out your crayons, colored pencils, and markers and download our free Coloring Books!
 
@@ -18,22 +22,22 @@ Happy coloring!
 
 {% include feature/image.html objectid="uidaho_gem_coloringbook_2016;uidaho_gem_coloringbook_2017;uidaho_gem_coloringbook_2018" %}
 
-### Coloring Pages
+</div>
+<div class="col-md-4 p-4">
+<div class="card"><div class="card-body">
+<h3 class="display-5 fs-1">Coloring Pages</h3>
+<p>Click to download single page images:</p>
+<div class="text-center">
+{% for p in site.data.gem-coloring-pages %}
+<figure class="figure mb-4">
+    <a href="{{ p.image }}">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ p.image_small }}" alt="{{ p.title | escape }}" class="figure-img img-fluid rounded lazyload">
+    </a>
+    <figcaption class="figure-caption text-center">{{ p.title }}</figcaption>
+</figure>{% endfor %}
+</div>
+</div></div>
+</div>
+</div>
 
-Click to download single page images:
-
-Idaho Super Fan 1906
-https://www.lib.uidaho.edu/digital/gem/coloring/Uidaho_Coloring_fan_sm.jpg
-
-Agriculture from 1920
-https://www.lib.uidaho.edu/digital/gem/coloring/UIdaho_ColoringBook2017_agriculture_sm.jpg
-
-Patterns from 1907
-https://www.lib.uidaho.edu/digital/gem/coloring/UIdaho_Coloring_patterns_sm.jpg
-
-The Student Body 1904
-https://www.lib.uidaho.edu/digital/gem/coloring/UIdaho_Coloring_students_sm.jpg
-
-Musical Organization 1906
-https://www.lib.uidaho.edu/digital/gem/coloring/UIdaho_Coloring_music_sm.jpg
 
