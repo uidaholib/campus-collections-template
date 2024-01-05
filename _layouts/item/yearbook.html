@@ -23,9 +23,15 @@ gallery: true
     <div class="row justify-content-center">
         
         <div class="col-md-8">
-            <div class="ratio reader-embed">
-                <iframe title="embedded reader {{ page.title }}" src="{{ page.archive_link | replace: '/details/', '/embed/' }}" allowfullscreen></iframe>
-            </div>
+            
+            <div id="iaReader" class="ratio reader-embed"></div>
+            <script> 
+                // check url for page query
+                let url = new URL(window.location);
+                var viewer_src = url.searchParams.get('page') ? "{{ page.archive_link | replace: '/details/', '/embed/' }}/page/n" + url.searchParams.get('page') + "/mode/2up" : "{{ page.archive_link | replace: '/details/', '/embed/' }}";
+                // add iframe IA reader
+                document.getElementById('iaReader').innerHTML = `<iframe title="embedded reader {{ page.title }}" src="${viewer_src}" allowfullscreen></iframe>`;
+            </script>
             <p class="my-3">
                 <a target="_blank" rel="noopener" href="{{ page.archive_link }}/mode/2up?view=theater" class="btn btn-outline-primary">Fullscreen Viewer</a>
                 <a target="_blank" rel="noopener" href="{{ page.object_location | relative_url }}" class="btn btn-outline-primary">Download PDF</a>
@@ -47,7 +53,7 @@ gallery: true
         </div>
         <div class="col-md-1 order-md-first">
             <a class="spotlight gallery-img" data-download="true" href="{{ page.image_spine }}">
-            <img src="{{ page.image_spine }}" class="img-fluid img-spine" alt="book spine showing {{ page.title }}">
+                <img src="{{ page.image_spine }}" class="img-fluid img-spine" alt="book spine showing {{ page.title }}">
             </a>
         </div>
 
