@@ -30,7 +30,6 @@ gallery: true
                 <a target="_blank" rel="noopener" href="{{ page.archive_link }}/mode/2up?view=theater" class="btn btn-outline-primary">Fullscreen Viewer</a>
                 <a target="_blank" rel="noopener" href="{{ page.object_location | relative_url }}" class="btn btn-outline-primary">Download PDF</a>
             </p>
-            {% if page.sponsor %}<p><strong>This volume was sponsored by: {{ page.sponsor }}</strong></p>{% endif %}
         </div>
         <div class="col-md-3">
             <h3>Highlights</h3>
@@ -40,7 +39,7 @@ gallery: true
                 {% for h in highlights %}
                 <div class="col-6 mb-2">
                     <a class="spotlight gallery-img" data-download="true" href="https://objects.lib.uidaho.edu/gem/highlights/{{ h }}">
-                        <img src="https://objects.lib.uidaho.edu/gem/highlights/{{ h }}" alt="yearbook page highlight" class="img-fluid">
+                        <img src="https://objects.lib.uidaho.edu/gem/highlights/small/{{ h | replace: '.jpg', '_sm.jpg' }}" alt="yearbook page highlight" class="img-fluid">
                     </a>
                 </div>
                 {% endfor %}
@@ -53,7 +52,7 @@ gallery: true
         </div>
 
         <div class="col-12 col-md-10 pt-4">
-            
+            {% if page.sponsor %}<p><strong>Yearbook Sponsor:</strong> {{ page.sponsor }}</p>{% endif %}
             {% if page.signatures %}<p><strong>Digital Yearbook Signatures:</strong></p>
             {% assign signatures = page.signatures | split: ';' %}
             <ul>
