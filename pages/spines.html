@@ -1,0 +1,28 @@
+---
+title: Gem Spines
+layout: page
+permalink: /spines.html
+---
+
+<h2 class="display-4">Gem Spines Gallery</h2>
+
+<p>Click on a spine on our bookshelf to visit the Gem volume.</p>
+
+{% assign yearbooks = site.data.gem | where: 'display_template', 'yearbook' %}
+<div class="border bg-dark p-5 rounded">
+    <div class="bg-light">
+    <div class="spines d-flex flex-wrap justify-content-evenly align-items-end">
+    {% for y in yearbooks %}
+    <div class="pt-3">
+        <a href="{{ '/items/' | relative_url }}{{ y.objectid }}.html">
+            <img class="img-fluid" src="{{ y.image_spine | replace: '/spines/', '/spines/small/' }}" alt="book spine depicting {{ y.title | escape }}">
+            <span class="spine-year"><br>{{ y.date }}</span>
+        </a>
+    </div>
+    {% assign shelf = forloop.index | modulo: 12 %}
+    {% if shelf == 0 %}<div class="w-100 p-3 bg-dark"></div>{% endif %}
+
+    {% endfor %}
+    </div>
+    </div>
+</div>

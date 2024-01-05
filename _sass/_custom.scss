@@ -12,14 +12,22 @@
     color: #191919;
 }
 
-// display fonts
+// Allan display fonts
 .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
     font-family: 'Allan', helvetica, Helvetica, Rockwell,cursive;
 }
 
+// custom ratio for IA reader on yearbook page
 .reader-embed { 
     // 4x3 ratio
     --bs-aspect-ratio: calc(3 / 4 * 100%);
     // min height for mobile
     min-height: 500px;
+}
+
+// spines page
+.spine-year { display: none; }
+.spines a:hover .spine-year { 
+    display: block !important;
+    margin-top: -20px;
 }
