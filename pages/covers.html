@@ -11,10 +11,11 @@ gallery: true
 
 <div class="row row-cols-2 row-cols-md-4 row-cols-xl-6 g-4">
     {% for g in site.data.gem %}
-    <div class="col">
+    <div class="col text-center">
         <a class="spotlight gallery-img" data-download="true" href="{{ g.image_small }}">
-            <img class="lazyload img-fluid" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ g.image_thumb | relative_url }}" alt="{{ g.title | escape }}">
+            <img class="lazyload img-fluid shadow" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ g.image_thumb | relative_url }}" alt="{{ g.title | escape }}">
         </a>
+        <div class="mt-2 h4"><a href="{{ '/items/' | relative_url }}{{ g.objectid }}.html" class="text-dark mt-2">{{ g.date }}</a></div>
     </div>
     {% endfor %}
 </div>

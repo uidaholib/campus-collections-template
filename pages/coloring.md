@@ -31,7 +31,7 @@ Happy coloring!
 {% for p in site.data.gem-coloring-pages %}
 <figure class="figure mb-4">
     <a href="{{ p.image }}">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ p.image_small }}" alt="{{ p.title | escape }}" class="figure-img img-fluid rounded lazyload">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ p.image_small }}" alt="{{ p.title | escape }}" class="figure-img img-fluid rounded lazyload shadow">
     </a>
     <figcaption class="figure-caption text-center">{{ p.title }}</figcaption>
 </figure>{% endfor %}

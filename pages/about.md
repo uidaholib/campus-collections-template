@@ -64,7 +64,7 @@ Student Assistants: Sierra Magnusson, Jordan Proctor, Keila Dubois, Lynette Ande
 {% for f in site.data.famous-vandals %}
 <figure class="figure mb-4">
     <a href="{{ '/items/' | relative_url }}uidaho_gem_{{ f.yearbook }}.html?page={{ f.page }}">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ f.image }}" alt="yearbook photo of {{ f.name | escape }}" class="figure-img img-fluid rounded lazyload">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ f.image }}" alt="yearbook photo of {{ f.name | escape }}" class="figure-img img-fluid rounded lazyload shadow">
     </a>
     <figcaption class="figure-caption text-center">{{ f.name }} <br>{{ f.description }}</figcaption>
 </figure>{% endfor %}

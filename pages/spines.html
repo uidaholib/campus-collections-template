@@ -9,12 +9,12 @@ permalink: /spines.html
 <p>Click on a spine on our bookshelf to visit the Gem volume.</p>
 
 {% assign yearbooks = site.data.gem | where: 'display_template', 'yearbook' %}
-<div class="border p-5 rounded bookshelf bg-bookshelf mx-auto">
+<div class="border p-5 rounded bookshelf bg-bookshelf mx-auto shadow-lg">
     <div class="spines d-flex flex-wrap justify-content-start align-items-end">
     {% for y in yearbooks %}
     <div class="yearbook-spine">
         <a href="{{ '/items/' | relative_url }}{{ y.objectid }}.html">
-            <img class="img-fluid" src="{{ y.image_spine | replace: '/spines/', '/spines/small/' }}" alt="book spine depicting {{ y.title | escape }}">
+            <img class="img-fluid shadow" src="{{ y.image_spine | replace: '/spines/', '/spines/small/' }}" alt="book spine depicting {{ y.title | escape }}">
             <div class="spine-year text-white fs-3"><strong>{{ y.date }}</strong></div>
         </a>
     </div>

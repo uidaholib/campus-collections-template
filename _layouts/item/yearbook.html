@@ -6,10 +6,10 @@ layout: default
 item-meta: true
 gallery: true
 ---
-<div class="container my-4 card">
+<div class="container my-4 card shadow">
     <div class="card-body">
 
-        <ol class="breadcrumb">
+        <ol class="breadcrumb shadow-sm">
             <li class="breadcrumb-item"><a class="text-dark" href="{{ '/' | relative_url }}">Home</a></li>
             <li class="breadcrumb-item"><a class="text-dark" href="{{ '/browse.html' | relative_url }}">Browse</a></li>
             <li class="breadcrumb-item active text-dark" aria-current="page">Gem {{ page.date }}</li>
@@ -25,7 +25,7 @@ gallery: true
             
             <div class="col-md-8">
                 
-                <div id="iaReader" class="ratio reader-embed"></div>
+                <div id="iaReader" class="ratio reader-embed shadow"></div>
                 <script> 
                     // check url for page query
                     let url = new URL(window.location);
@@ -46,7 +46,7 @@ gallery: true
                     {% for h in highlights %}
                     <div class="col-6 mb-2">
                         <a class="spotlight gallery-img" data-download="true" href="https://objects.lib.uidaho.edu/gem/highlights/{{ h }}">
-                            <img src="https://objects.lib.uidaho.edu/gem/highlights/small/{{ h | replace: '.jpg', '_sm.jpg' }}" alt="yearbook page highlight" class="img-fluid">
+                            <img src="https://objects.lib.uidaho.edu/gem/highlights/small/{{ h | replace: '.jpg', '_sm.jpg' }}" alt="yearbook page highlight" class="img-fluid shadow">
                         </a>
                     </div>
                     {% endfor %}
@@ -54,7 +54,7 @@ gallery: true
             </div>
             <div class="col-md-1 order-md-first">
                 <a class="spotlight gallery-img" data-download="true" href="{{ page.image_spine }}">
-                    <img src="{{ page.image_spine }}" class="img-fluid img-spine" alt="book spine showing {{ page.title }}">
+                    <img src="{{ page.image_spine }}" class="img-fluid img-spine shadow" alt="book spine showing {{ page.title }}">
                 </a>
             </div>
 
