@@ -8,7 +8,7 @@ permalink: /support.html
 <div class="col-md-8" markdown="1">
 
 ## Gem Yearbook Supporters
-{:.display-4}
+{:.display-3}
 
 Many people have helped support this collection and other digital initiatives by [giving generously to the Library](https://www.lib.uidaho.edu/giving/).
 Individuals who sponsored a Gem of the Mountains volume have their names published in their selected yearbook's web page as well as on a digital bookplate inserted into the online yearbook.

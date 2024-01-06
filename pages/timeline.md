@@ -5,4 +5,4 @@ permalink: /timeline.html
 ---
 
 ## Collection Timeline
-{:.display-4}
+{:.display-3}

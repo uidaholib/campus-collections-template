@@ -5,7 +5,7 @@ permalink: /coloring.html
 ---
 
 ## Gem Coloring Books
-{:.display-4}
+{:.display-3}
 
 <div class="row">
 <div class="col-md-8" markdown="1">

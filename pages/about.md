@@ -9,7 +9,7 @@ credits: true
 ---
 
 ## About 
-{:.display-4}
+{:.display-3}
 
 <div class="mb-4 mx-5">
     <figure>

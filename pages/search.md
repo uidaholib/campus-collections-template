@@ -5,4 +5,4 @@ permalink: /search/
 ---
 
 ## Full metadata search
-{:.display-4}
+{:.display-3}

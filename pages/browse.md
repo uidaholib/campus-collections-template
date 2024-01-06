@@ -5,4 +5,4 @@ permalink: /browse.html
 ---
 
 ## Browse Items
-{:.display-4}
+{:.display-3}
