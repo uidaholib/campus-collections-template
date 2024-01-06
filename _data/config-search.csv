@@ -1,4 +1,6 @@
 field,index,display
 title,true,true
 date,true,true
-subject,true,true
+quote,true,false
+sponsor,true,false
+signatures,true,false
