@@ -3,4 +3,4 @@ date,Date,,,Date
 subject,,true
 identifier,,,true,Identifier
 location_identifier,,,true
-campus location,,true,,Campus Location
+campus_location,,true,,Campus Location

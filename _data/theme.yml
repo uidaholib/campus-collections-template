@@ -32,7 +32,7 @@ subjects-stopwords: # set of subjects separated by ; that will be removed from d
 ##########
 # LOCATIONS PAGE
 #
-locations-fields: campus location  # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+locations-fields: campus_location  # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
 locations-min: 2 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
@@ -61,7 +61,7 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,description,date,date is approximate,subject,campus location,latitude,longitude,donor,publisher - digital,source,identifier,id number,photo number,building number,rights,rightsstatement,ordering information,format original,type,format,objectid,location_identifier"
+metadata-export-fields: "title,description,date,date is approximate,subject,campus_location,latitude,longitude,donor,publisher_digital,source,identifier,id number,photo number,building number,rights,rightsstatement,ordering information,format original,type,format,objectid,location_identifier"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,campus location,donor,type,format"
 
