@@ -82,3 +82,9 @@
         padding: 25px 0;
     }
 }
+
+// tweak active color
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #5E48FF;
+}
+

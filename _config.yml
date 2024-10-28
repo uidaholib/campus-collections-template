@@ -20,6 +20,13 @@ digital-assets: https://www.lib.uidaho.edu/assets
 objects: https://objects.lib.uidaho.edu/argonaut
 
 ##########
+# Search Setting
+#
+# set to true to use elastic search box in nav. Collection search.json must be added to the search Sources! Check config-search-index for configuration.
+# if collection is not in the index, leave blank to use local lunr search instead.
+central-search: 
+
+##########
 # SITE SETTINGS
 #
 # title of site appears in banner
