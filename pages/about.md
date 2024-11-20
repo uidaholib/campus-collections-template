@@ -27,3 +27,4 @@ The [Women's Center](https://www.uidaho.edu/diversity/edu/womens-center) on the 
 Initially started as a volunteer organization, the Women's Center has transformed into a fully staffed entity on campus that continues to promote and advocate for gender equality for the U of I community.
 
 *Information about this collection has been adapted from the finding aid of UG 71 Women's Center records, 1970-2013, written by Courtney E. Berge and Erin Geslani. More detailed information about the collection and its contents can be found in the collection's [finding aid](https://archiveswest.orbiscascade.org/ark:/80444/xv822644).* 
+
