@@ -16,9 +16,7 @@ credits: true
 
 The Idaho Forester Collection consists of the digitized University of Idaho Forestry Department Annuals, *Idaho Forester* published annually from 1917-1997. Written and published entirely by the students of the forestry program, each issue includes reports on activities within the department for that year, as well as articles on various research and other current events, and analysis of the forest products industry, formerly the dominant industry in Northern Idaho. No issues were published in 1918 or 1919 due to the number of students called away to serve in World War 1. Again in 1968 there was no publication issued, this time due to creative differences and problems with meeting the deadline. The initial issues through 1953 were published by the Associated Foresters, an organization within the University of Idaho whose membership included all faculty and students in the School of Forestry. The Associated Foresters promoted greater activity and interest within the school toward the professionalism of forestry and sponsored educational and social functions held by the program. Later issues were published by students in the College of Forestry, then in the College of Forestry, Wildlife and Range Sciences. Multiple times throughout its history, *Idaho Forester* won first place as best student publication by the Society of American Foresters. 
 
-
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/pg2/pg2288.jpg" alt="Associated Foresters, University of Idaho, 1923" caption="Associated Foresters, University of Idaho, 1923" width="50" %}
-
 
 ## About the Department
 
@@ -31,8 +29,4 @@ University of Idaho created a Department of Forestry in 1909, the second such pr
 
 The collection was developed with the support of [Project Ceres](https://www.crl.edu/collections/global-resources-partnership/global-resources-agriculture-partnership), a collaboration between the [Center for Research Libraries](https://www.crl.edu/), the [United States Agricultural Information Network (USAIN)](https://usain.org/), and the [Agriculture Network Information Collaborative (AgNIC)](https://agnic.org/). 
 
-Print copies of the *Idaho Forester* are also held in [Special Collections & Archives](https://www.lib.uidaho.edu/special-collections/) at the University of Idaho Library.
-
-
-<div class="clearfix"></div>
-
+Print copies of the *Idaho Forester* are also held in [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) at the University of Idaho Library.
