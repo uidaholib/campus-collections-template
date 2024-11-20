@@ -41,3 +41,4 @@ A gift from the [Idaho Forest Group](http://www.idfg.com/) helped support the cr
 [^2]: "Experimental Forests and Ranges," Rocky Mountain Research Station, U.S. Forest Service, [https://www.fs.usda.gov/rmrs/experimental-forests-and-ranges](https://www.fs.usda.gov/rmrs/experimental-forests-and-ranges). (Archived: [https://perma.cc/3VTM-PBLN](https://perma.cc/3VTM-PBLN))
 
 [^3]: "2005 Idaho Code - 38-702 - DIRECTOR -- CONTROL -- ASSISTANTS AND EMPLOYEES," JUSTIA US Law, [https://law.justia.com/codes/idaho/2005/38ftoc/380070002.html](https://law.justia.com/codes/idaho/2005/38ftoc/380070002.html). (Archived: [https://perma.cc/3663-CSPH](https://perma.cc/3663-CSPH))
+
