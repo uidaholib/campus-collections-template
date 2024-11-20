@@ -18,6 +18,13 @@ source-code: https://github.com/uidaholib/campus-collections-template
 digital-assets: https://www.lib.uidaho.edu/assets
 
 ##########
+# Search Setting
+#
+# set to true to use elastic search box in nav. Collection search.json must be added to the search Sources! Check config-search-index for configuration.
+# if collection is not in the index, leave blank to use local lunr search instead.
+central-search: 
+
+##########
 # SITE SETTINGS
 #
 # title of site appears in banner
@@ -28,7 +35,7 @@ tagline: Digital Yearbook Collection
 # this description might appear in search result lists, keep around 160 characters max
 description: "The Gem of the Mountains was the yearbook of the University of Idaho from 1903 to 2004, documenting the traditions, triumphs, controversies, histories, and achievements of the University and its students, faculty, and administrators."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: University of Idaho, Yearbook, Gem of the Mountains, History, Historical Photographs, students, campus, alumni, sports, life, culture
+keywords: University of Idaho; Yearbook; Historical Photographs; students; campus; alumni; sports; life; culture
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 
