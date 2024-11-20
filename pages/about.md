@@ -26,4 +26,3 @@ For more information on Leo Ames, see the [Leo Ames Papers](https://www.lib.uida
 
 {% include feature/image.html objectid="argonautphotos650" width="50" %}
 
-<div class="clearfix"></div>
