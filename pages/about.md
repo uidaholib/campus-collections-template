@@ -16,10 +16,4 @@ Play production on the U of I Moscow campus was originally student body efforts 
 
 This digital collection contains articles about U of I Theatre which is still creating and producing theatrical productions and educating students whether or not they are majors.
 
-
-
-
-
 {% include feature/image.html objectid="theatre001" width="75" %} 
-
-
