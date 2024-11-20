@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/nav-menu.html sections="About the Collection;About Special Collections;About Digital Initiatives" %} 
 
-{% include feature/jumbotron.html %} 
+{% include feature/jumbotron.html %}
 
 ## About the Collection
 
@@ -49,3 +49,4 @@ Today, Special Collections and Archives specializes in the acquisition, preserva
 The department was established in 2008 with an initial charge to digitize and make accessible the library’s renowned International Jazz Collections. Material from the Jazz Collections continue to be added to this day, and we continue to build on our collections. We currently maintain over 70 digital collections and applications, The work which began in the lab was incorporated into a library department, Data and Digital Services, and a University center, the [Center for Digital Inquiry and Learning (CDIL)](https://cdil.lib.uidaho.edu/). CDIL is a collaboration between the library and the [College of Letters, Arts, and Social Sciences (CLASS)](https://www.uidaho.edu/class) that advances digital scholarship work at the University of Idaho.
 
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/ijc/hampton_collection/ijc_lionel_hampton_0071.jpg" link="https://www.ijc.uidaho.edu/hampton_collection/items/ijc_lionel_hampton_0071.html" width="50"%}
+
