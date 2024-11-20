@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="boxing15" %} 
 
-{% include feature/nav-menu.html sections="About Donald R. Theophilus (Jr.);About the University of Idaho Boxing Team;Sources;" %} 
+{% include feature/nav-menu.html sections="About Donald R. Theophilus (Jr.);About the University of Idaho Boxing Team;Sources;" %}
 
 ## About Donald R. Theophilus (Jr.)
 
@@ -19,7 +19,6 @@ It is unclear whether this collection originated from Donald R. Theophilus or Do
 Donald R. Theophilus, Jr. was born on September 6, 1931 in Moscow, Idaho (where he is buried) and died August 17, 1983 at age 51.[^1] He was the son of Donald R. Theophilus, (January 6, 1889 – May 11, 1970) who most notably served as President of University of Idaho from 1954-1965.[^2] President Theophilus has long been "remembered for his commitment" to the university mission as a land-grant institution being "responsible for not only educating its students but also providing extension services for residents throughout the state."[^3] Theophilus later wrote that "the primary objectives of the University have always been the achievement and extension of excellence in learning and in research so that those it serves can be better citizens, make a better living, live better and be more useful and worthy individuals."[^3] It is said that "he pursued that mission by expanding adult education statewide and working to reopen Lewis-Clark Normal School to train teachers."[^3]
 
 Upon President Theophilus' retirement in 1965, Idaho Governor Robert E. Smylie said of him, "No one in Idaho's history has been able to do so much for so many for so long."[^3]
-
 
 {% include feature/image.html objectid="boxing33" width="75" %}
 
@@ -59,5 +58,3 @@ By the time boxing ended at the University of Idaho, the team had collected "six
 
 [^4]: Theo Lawson, "Kings of Their Ring - Its Tenure Was Short-Lived, but Vandal Boxing Holds Deep Roots in UI's History." *The University of Idaho Argonaut: For, Of, and By the Students Since 1898*, May 5, 2014, [https://www.uiargonaut.com/2014/05/05/kings-of-their-ring-its-tenure-was-short-lived-but-vandal-boxing-holds-deep-roots-in-uis-history/](https://www.uiargonaut.com/2014/05/05/kings-of-their-ring-its-tenure-was-short-lived-but-vandal-boxing-holds-deep-roots-in-uis-history/). (Archived: [https://perma.cc/6UPT-PHW5](https://perma.cc/6UPT-PHW5))
 
-
-<div class="clearfix"></div>
