@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html %} 
 
-{% include feature/nav-menu.html sections="About the Collection;Historical Note" %} 
+{% include feature/nav-menu.html sections="About the Collection;Historical Note" %}
 
 ## About the Collection
 
@@ -36,5 +36,3 @@ Digitization: Graham Warger
 
 Metadata and Digital Video Work: Andrew Rowe, Susanna Daniels, and Kevin Dobbins.
 
-
-<div class="clearfix"></div>

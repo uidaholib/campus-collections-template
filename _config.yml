@@ -18,6 +18,13 @@ source-code: https://github.com/uidaholib/campus-collections-template
 digital-assets: https://www.lib.uidaho.edu/assets
 
 ##########
+# Search Setting
+#
+# set to true to use elastic search box in nav. Collection search.json must be added to the search Sources! Check config-search-index for configuration.
+# if collection is not in the index, leave blank to use local lunr search instead.
+central-search: 
+
+##########
 # SITE SETTINGS
 #
 # title of site appears in banner
@@ -28,7 +35,7 @@ tagline: Historic videos of University of Idaho Basketball and Football Games, 1
 # this description might appear in search result lists, keep around 160 characters max
 description: "The Vandal Video Collection is a collection of 160+ digitized 16mm Film reels that were scouting videos for both football and basketball games."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: "Campus; UI; Sports;"
+keywords: University of Idaho; Campus; Sports
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 
