@@ -3,7 +3,7 @@ title: Campus Entity
 layout: cloud
 permalink: /organizations.html
 cloud-fields: site.data.theme.locations-fields
-button: outline-payette-blue
+button: outline-palouse
 ---
 
 ## Browse Campus Organizations and Events
