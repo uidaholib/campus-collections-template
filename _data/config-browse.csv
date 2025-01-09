@@ -1,4 +1,4 @@
 field,display_name,btn,hidden,sort_name
-date,,,true,
+date,,,true,Date
 subject,,true
 identifier,,,true,Identifier
