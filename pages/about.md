@@ -19,6 +19,7 @@ This digital collection features the Women's Center newsletters and photographs 
 {% include feature/image.html objectid="womenscenter140" width="50" %}
 
 ## About the Women's Center
+{:#about-the-women-s-center}
 
 {% include feature/image.html objectid="womenscenter124" width="50" %}
 
