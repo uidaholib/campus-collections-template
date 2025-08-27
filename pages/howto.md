@@ -33,6 +33,7 @@ To provide authentic access to archived web content, the Wayback Machine renders
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/webarchive/uidaho2015.png" caption="uidaho.edu on 03-26-2015" link="https://web.archive.org/web/20150326020130/http://www.uidaho.edu/" %}
 
 - The archived page can be shared by copying the full URL in your browser's address bar.
+- Clicking on the small timeline in the capture information box at the top will navigate you through the history available for the page.
 - Clicking on links inside the archived page will redirect to archived content at the same date if available.
 
 ## Archive a Web Page
