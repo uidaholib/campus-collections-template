@@ -39,6 +39,11 @@ For example, a survey of journal articles in 2015 found that:
 
 > "Over 50% of cited links in Supreme Court opinions no longer point to the intended page. Roughly 70% of cited links in academic legal journals and 20% of all science, technology and medicine articles suffer from link rot." ([Perma.cc](https://perma.cc/about))
 
+Web links suffer from two main issues:
+
+1. Link Rot -- when a given link breaks, pointing to nothing or the wrong page.
+2. Reference Rot / Content Drift -- when content on page at a given link has changed, no longer matching the original citation.
+
 For decades libraries and archives around the world have been working on the challenge of preserving web resources for current and future generations.
 As with all digital information, it is at-risk without active [digital preservation](https://en.wikipedia.org/wiki/Digital_preservation) measures (see [Why Digital Preservation is Important for Everyone (2010)](https://youtu.be/qEmmeFFafUs)).
 
