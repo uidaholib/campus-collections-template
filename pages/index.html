@@ -1,0 +1,34 @@
+---
+layout: page
+title: Home
+permalink: /
+---
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h2 class="card-title h5">Web Archive Collections</h2>
+                <p class="card-text">To ensure continued access to the unique born-digital content published on the University of Idaho website, the Library proactively captures university communications in their original web context. These materials are made available in our digital collections and as part of larger web archives.</p>
+                <a class="btn btn-primary" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a>
+                <a class="btn btn-clearwater ms-3" href="{{ '/howto.html' |relative_url }}">Using Web Archives &raquo;</a>
+            </div>
+        </div>
+    </div>
+    {% for a in site.data.webarchives %}
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3 class="card-title h4"><a href="{{ a.object_location }}" class="text-dark">{{ a.title }}</a></h3>
+                {% if a.image_thumb %}<p class="text-center"><img class="img-fluid" src="{{ a.image_thumb }}"></p>{% endif %}
+                <p class="card-text">
+                    {{ a.description }}
+                </p>
+                <hr>
+                <a href="{{ a.object_location }}" class="btn btn-sm btn-light">View Collection</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
