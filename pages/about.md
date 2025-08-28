@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="lrcdp-1997" %} 
 
-{% include feature/nav-menu.html sections="Introduction;About the Collection" %}
+{% include feature/nav-menu.html sections="Introduction;About the Collection;Related Collections" %}
 
 ## Introduction
 
@@ -32,7 +32,13 @@ Thank you for taking the time to peek into our future. It is an exciting bluepri
 
 ## About the Collection
 
-University of Idaho [Architectural and Engineering Services](https://www.uidaho.edu/infrastructure/facilities/aes) maintains the [Long Range Campus Development Plan and Illustrative Plans](https://www.uidaho.edu/dfa/budget-and-planning/aes/campus-development-plan).
+University of Idaho Architectural and Engineering Services maintains the [Long Range Campus Development Plan and Illustrative Plans](https://web.archive.org/web/20250519105146/https://www.uidaho.edu/dfa/budget-and-planning/aes/campus-development-plan).
 This collection started as an [exhibit on their web pages](https://perma.cc/GXV6-S95P) that was transferred to the library for preservation and access. 
 The materials are intended as an introduction to historical planning and development at University of Idaho's Moscow campus.
+
+## Related Collections
+
+The [University of Idaho Campus Photographs Digital Collection](https://www.lib.uidaho.edu/digital/campus/) contains over 3000 digitized historical photographs documenting the history of the U of I Campus from 1889 to present.
+
+The University of Idaho Special Collections and Archives holds a collection of [Architectural and Engineering Services photographs, 1892-2000](https://archiveswest.orbiscascade.org/ark:80444/xv338596).
 
