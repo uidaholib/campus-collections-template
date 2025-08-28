@@ -18,6 +18,8 @@ As part of Special Collections and Archives work to preserve primary sources tha
 We use tools such as [Archive-It](https://archive-it.org/home/uidaholib), [Perma.cc](https://perma.cc), [ArchiveWeb.page](https://webrecorder.net/archivewebpage/), and [wget](https://www.gnu.org/software/wget/).
 The content we preserve is made available as part of larger web archives and select digital collections. 
 
+If you regularly archive web pages to cite in your research, please check out the Library's [Perma.cc Service]({{ '/permacc.html' | relative_url }}).
+
 ## Accessing Web Archives
 
 To find old University of Idaho web pages, the most complete collection is available via the [Internet Archive Wayback Machine](https://web.archive.org/).

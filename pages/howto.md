@@ -85,6 +85,8 @@ Optionally, you can [create an Internet Archive account](https://archive.org/acc
 When logged in, "Save Page Now" you will give you more advanced options, including save outlinks and screenshot.
 If you select the option "Save also in my web archive", the capture will appear in your account's "web archive" list, giving you a basic way to keep track of saved items.
 
+If you regularly archive web pages to cite in your research, please check out the Library's [Perma.cc Service]({{ '/permacc.html' | relative_url }}).
+
 ## Citing Web Archives
 {:.mt-5}
 
