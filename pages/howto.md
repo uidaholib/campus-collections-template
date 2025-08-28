@@ -4,7 +4,8 @@ layout: page-narrow
 permalink: /howto.html
 ---
 
-## How to Use Web Archives 
+## How to Use Web Archives
+{:.display-4}
 
 The majority of content captured by University of Idaho Library's web archiving efforts are contributed to [Internet Archive (IA)](https://archive.org/) and are discoverable using their [Wayback Machine](https://archive.org/web/) service.
 IA has been archiving web content at a huge scale since 1996--the size of their holdings are hard to imagine, with *hundreds of billions* of web pages captured and *over 99* petabytes of data stored.

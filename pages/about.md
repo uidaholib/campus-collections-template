@@ -9,6 +9,7 @@ permalink: /about.html
 ---
 
 ## About University of Idaho Web Archive Collections
+{:.display-4}
 
 The [University of Idaho website](https://www.uidaho.edu/) is an important part of the institution's scholarly and cultural record, serving as a central place for communication and publishing unique materials. 
 This content is constantly changing with new updates, edits, and redesigns--reflecting the continual evolution of the institution.
