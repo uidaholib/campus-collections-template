@@ -8,7 +8,7 @@ permalink: /howto.html
 {:.display-4}
 
 The majority of content captured by University of Idaho Library's web archiving efforts are contributed to [Internet Archive (IA)](https://archive.org/) and are discoverable using their [Wayback Machine](https://archive.org/web/) service.
-IA has been archiving web content at a huge scale since 1996--the size of their holdings are hard to imagine, with *hundreds of billions* of web pages captured and *over 99* petabytes of data stored.
+IA has been archiving web content at a huge scale since 1996--the size of their holdings are hard to imagine, with *over 916 billion* web pages captured and *over 100* petabytes of data stored.
 
 This makes IA an invaluable resource for [Finding Broken Links](#find-broken-links), [Saving a Web Page](#archive-a-web-page), and [Citing Sources](#citing-web-archives).
 
@@ -118,6 +118,7 @@ It is often helpful to provide an "accessed on" date so that people will know *w
 
 - [Internet Archive Scholar](https://scholar.archive.org/) (archive featuring full text search of archived research documents)
 - [Library of Congress Web Archives](https://www.loc.gov/web-archives/collections/)
+- [US National Archives Web Harvests](https://www.webharvest.gov/)
 - [Documenting the Now](https://www.docnow.io/) (tools and community for ethical social media archiving)
 - [Archive-It](https://archive-it.org/) (platform used by organizations to create and manage web archive collections, based in Internet Archive)
 - [Conifer](https://conifer.rhizome.org/) (platform for capturing web content via surfing, formerly called Webrecorder.io, designed for more complex dynamic content)

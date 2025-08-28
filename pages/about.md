@@ -57,6 +57,9 @@ For example, the <a href="{{ '/timeline.html' | relative_url }}" >U of I Library
 
 To provide authentic access to archived web content, the Wayback Machine renders the original functionality in the user's web browser with hyperlinks automatically redirected to archived sources rather than the live web.
 
+Keep in mind that some web resources are difficult to capture, will display anomalies when removed from the live web, or intentionally prevent archiving. 
+Social media streams, paywalled resources, streaming videos, and 3rd party embeds are unlikely to be correctly captured.
+
 The <a href="https://archive.org/about">Internet Archive</a> has been leading the field of web archiving since 1996, developing the technical means to harvest, store, preserve, and access archived web content on a huge scale. 
 In 2003 they helped form the <a href="http://netpreserve.org/">International Internet Preservation Consortium (IIPC)</a> to support collaborative efforts to improve standards, tools, and best practices for web archiving.
 
