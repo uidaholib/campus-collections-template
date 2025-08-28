@@ -29,6 +29,8 @@ University of Idaho content is regularly harvested by Internet Archive crawlers,
 All these sources are accessible via the Wayback Machine.
 Visit the [archive for www.uidaho.edu](https://web.archive.org/web/20250000000000*/https://www.uidaho.edu/) to explore the full list of captures.
 
+Check our [How to Use Web Archives page]({{ '/howto.html' | relative_url }}) for more details and don't hesitate to get in touch with [Special Collections & Archives](https://www.lib.uidaho.edu/special-collections/) for help.
+
 ## About Web Archiving
 
 Content on the web is in constant flux: rapidly appearing, updating, and disappearing. 

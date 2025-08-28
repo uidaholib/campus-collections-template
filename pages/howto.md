@@ -12,11 +12,13 @@ IA has been archiving web content at a huge scale since 1996--the size of their 
 
 This makes IA an invaluable resource for [Finding Broken Links](#find-broken-links), [Saving a Web Page](#archive-a-web-page), and [Citing Sources](#citing-web-archives).
 
+If you have any questions, please don't hesitate to get in touch with [Special Collections & Archives](https://www.lib.uidaho.edu/special-collections/) for help!
+
 ## Find Broken Links
 {:.mt-5}
 
 The IA's vast web content is accessible via the [Wayback Machine](https://archive.org/web/).
-Paste any URL into the search box to see past copies captured over time. 
+Paste any URL into the search box to see past copies captured over time--this allows you to recover currently broken links or browse the history of changes. 
 To provide authentic access to archived web content, the Wayback Machine renders the original functionality in the user's web browser with links automatically redirected to archived sources rather than the live web.
 
 [Internet Archive Wayback Machine](https://archive.org/web/){:.btn .btn-lg .btn-palouse .my-4}
@@ -39,6 +41,26 @@ To find a page in the web archive:
 - The archived page can be shared by copying the full URL in your browser's address bar.
 - Clicking on the small timeline in the capture information box at the top will navigate you through the history available for the page.
 - Clicking on links inside the archived page will redirect to archived content at the same date if available.
+
+## Find Lost Pages
+
+Don't have the old URL to the page you are looking for?
+It may still be possible to locate the content in the web archives.
+
+First, if you know approximately where the page was in a web site, the best option is usually to visit the archived home page and use the links on the page to browse.
+Each click on an archived page in the Wayback Machine will redirect to archived copies if available, allowing you to explore the entire website *at that time*.
+
+For example, if I know the page was in the CLASS section of the uidaho.edu website, I could start at [www.uidaho.edu in May 2025](https://web.archive.org/web/20250516005115/https://www.uidaho.edu/), click on the navigation on the archived page (Academics > Colleges: Letters, Arts and Social Sciences), and explore to find the lost content.
+
+Second, for content captured by the Library's curated harvests, full text search of page content is available in our [Archive-It collections](https://archive-it.org/home/uidaholib).
+This search covers *only* our cataloged collections (Dec 2024+), so indexes only a tiny fraction of what is available in the Wayback Machine.
+
+Search Archive-It collections:
+
+- Visit the [Library's Archive-It Page Text Search](https://archive-it.org/home/uidaholib?show=ArchivedPages) (the "Search Page Text" tab should be selected below the search box).
+- Put keywords into the search box and type Enter, or use the Advanced Search options on the left.
+
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/webarchive/archive-it-search.png" caption="Search Archive-It Collections" link="https://archive-it.org/home/uidaholib?show=ArchivedPages" %}
 
 ## Archive a Web Page
 {:.mt-5}
@@ -100,3 +122,4 @@ It is often helpful to provide an "accessed on" date so that people will know *w
 - [Archive-It](https://archive-it.org/) (platform used by organizations to create and manage web archive collections, based in Internet Archive)
 - [Conifer](https://conifer.rhizome.org/) (platform for capturing web content via surfing, formerly called Webrecorder.io, designed for more complex dynamic content)
 - [Webrecorder Tools](https://webrecorder.net/) (suite of web archiving tools)
+- [Intro to Web Archiving: Fight Link Rot and Preserve Your Citations](https://evanwill.github.io/web-cites/) (workshop outline, source of content adapted for this page)
