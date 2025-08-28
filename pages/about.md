@@ -19,13 +19,14 @@ The content we preserve is made available as part of larger web archives and sel
 
 ## Accessing Web Archives
 
-To find old University of Idaho web pages, the most complete capture is available via the [Internet Archive Wayback Machine](https://web.archive.org/).
+To find old University of Idaho web pages, the most complete collection is available via the [Internet Archive Wayback Machine](https://web.archive.org/).
 Visit the Wayback Machine and paste in a current or broken link to see if it has been captured.
 The Wayback system retrieves verifiable copies and presents the page as it was at the time of capture.
+Clicking navigation links on archived web pages will redirect to archived copies if available allowing you to explore the website *at that time*.
 
-University of Idaho content is regularly harvested by Internet Archive crawlers, as well as by curated harvests administered by the Library and single page captures initiated by other users.
+University of Idaho content is regularly harvested by Internet Archive crawlers, curated harvests administered by the Library, other collecting institutions, and single page captures initiated by public users.
+All these sources are accessible via the Wayback Machine.
 Visit the [archive for www.uidaho.edu](https://web.archive.org/web/20250000000000*/https://www.uidaho.edu/) to explore the full list of captures.
-Clicking navigation links on archived web pages will redirect to archived copies if available.
 
 ## About Web Archiving
 

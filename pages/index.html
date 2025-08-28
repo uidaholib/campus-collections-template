@@ -22,7 +22,8 @@ permalink: /
                 <h3 class="card-title h4"><a href="{{ a.object_location }}" class="text-dark">{{ a.title }}</a></h3>
                 {% if a.image_thumb %}<p class="text-center"><img class="img-fluid" src="{{ a.image_thumb }}"></p>{% endif %}
                 <p class="card-text">
-                    {{ a.description }}
+                    {{ a.description }}<br>
+                    <em><small>{{ a.updates }}</small></em>
                 </p>
                 <hr>
                 <a href="{{ a.object_location }}" class="btn btn-sm btn-light">View Collection</a>
