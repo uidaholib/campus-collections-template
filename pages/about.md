@@ -27,6 +27,6 @@ University of Idaho created a Department of Forestry in 1909, the second such pr
 
 ## External Support
 
-The collection was developed with the support of [Project Ceres](https://www.crl.edu/collections/global-resources-partnership/global-resources-agriculture-partnership), a collaboration between the [Center for Research Libraries](https://www.crl.edu/), the [United States Agricultural Information Network (USAIN)](https://usain.org/), and the [Agriculture Network Information Collaborative (AgNIC)](https://agnic.org/). 
+The collection was developed with the support of [Project Ceres](https://usain.org/Project-CERES), a collaboration between the [Center for Research Libraries](https://www.crl.edu/), the [United States Agricultural Information Network (USAIN)](https://usain.org/), and the [Agriculture Network Information Collaborative (AgNIC)](https://agnic.org/). 
 
 Print copies of the *Idaho Forester* are also held in [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) at the University of Idaho Library.
