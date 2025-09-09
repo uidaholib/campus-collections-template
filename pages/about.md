@@ -21,7 +21,7 @@ This digital exhibit showcases a variety of photographs from collections held by
 The list of source collections are below:
 
 * [University of Idaho Campus photographs](https://archiveswest.orbiscascade.org/ark:80444/xv382718) 
-* [University of Idaho Student Organizations collection](https://archiveswest.orbiscascade.org/ark:80444/xv867166/)  
+* [University of Idaho Student Organizations collection](https://archiveswest.orbiscascade.org/ark:80444/xv867166)  
 * [University of Idaho Portrait collection](https://archiveswest.orbiscascade.org/ark:80444/xv428765)
 * [Idaho photograph collection](https://archiveswest.orbiscascade.org/ark:80444/xv603274)
 * [University of Idaho Publications Department negatives](https://archiveswest.orbiscascade.org/ark:80444/xv826569)
