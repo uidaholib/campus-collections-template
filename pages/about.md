@@ -21,8 +21,8 @@ The General Catalog is the primary source for all degree requirements, academic 
 A new General Catalog is published annually and is effective starting in the summer. 
 Every effort is made to ensure the Catalog is accurate as of the date of publication.[^1]
 
-To view current General Catalogs, please visit the [current U of I Catalogs page](https://www.uidaho.edu/registrar/classes/catalogs).
+To view current course offerings, please visit the [current U of I Registrar page](https://www.uidaho.edu/registrar/registering-for-classes).
 
 ## Sources
 
-[^1]: [Schedule & Catalog, University of Idaho](https://www.uidaho.edu/registrar/classes)
+[^1]: [Schedule & Catalog, University of Idaho](https://web.archive.org/web/20250717154838/https://www.uidaho.edu/registrar/classes)
