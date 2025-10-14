@@ -9,6 +9,7 @@ subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
+idaho_county,Idaho County,,,
 collection,Source Collection
 source,Source,,,,
 findingaid,Finding Aid,,true

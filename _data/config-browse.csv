@@ -3,3 +3,4 @@ date,Date,,,Date
 photographer,Photographer,true,
 subject,,true
 identifier,,,true,Identifier
+idaho_county,Idaho County,,true,
