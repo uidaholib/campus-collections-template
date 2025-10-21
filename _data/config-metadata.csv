@@ -8,6 +8,7 @@ opponent,Opponent,true,
 score,Score
 stadium,Stadium,true,
 location,Location,,,,contentLocation
+idaho_county,Idaho County,,,
 latitude,Latitude
 longitude,Longitude
 collection,Source Collection
