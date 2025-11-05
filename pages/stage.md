@@ -18,7 +18,7 @@ Having a very small backstage, little rigging, and scant theatrical lights, it w
 
 {% include feature/image.html objectid="theatre035;theatre010" width="75" %}
 
-Students also put on shows outside the auditorium, including this production of *Embers* in the basement. They staged shows in the great outdoors too.
+Students also put on shows outside the auditorium, including this production of *The Lesson* in the basement. They staged shows in the great outdoors too.
 
 {% include feature/image.html objectid="theatre009" width="50" %}
 
