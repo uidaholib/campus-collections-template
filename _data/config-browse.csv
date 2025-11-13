@@ -3,5 +3,5 @@ artist,Artist,,,Artist
 date,Date,,,Date
 building,Building,,,Building
 location,,true
-formatoriginal,,true
+format_original,,true
 artist,,true

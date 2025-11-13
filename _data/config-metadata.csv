@@ -1,12 +1,12 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 artist,Artist,true,,DCTERMS.creator,creator
-archival date,Date Created (Archival Standard)
+archival_date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
 donor,Donor
 condition,Condition
-formatoriginal,Format Original,true
+format_original,Format Original,true
 dimensions,Dimensions
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
