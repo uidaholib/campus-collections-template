@@ -19,4 +19,5 @@ findingaid,Finding Aid,,true
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
-rightsstatement,Rights,,,DCTERMS.rights,license
+language,Language,,,DCTERMS.language,
+rightsstatement,,,,DCTERMS.rights,license
