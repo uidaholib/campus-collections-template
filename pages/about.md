@@ -8,22 +8,15 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="campusart459" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV" %}
+## About the Campus Artwork Collection
 
-## About CollectionBuilder CSV
+The Campus Artwork Collection presents a basic catalog of artworks owned by the University of Idaho, including paintings, sculptures, and prints from a variety of artists.
+The collection spans over 500 years and includes location information. 
+Many of the works are publicly accessible for viewing on campus.
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+Please note that the images in this collection are very basic photographs taken for inventory purposes. 
+They are not intended as high quality digital representations, but only as a reference preview for the original objects.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
-
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
-
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
+This collection does not include the art held by University of Idaho Library Special Collections and Archives.
