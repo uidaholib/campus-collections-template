@@ -9,7 +9,7 @@ about-featured-image: https://objects.lib.uidaho.edu/commencement/commencement2.
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
-heading: About the Collection
+heading: U of I Commencement Programs
 # paragraph text below heading in featured image
 sub-heading: 
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
