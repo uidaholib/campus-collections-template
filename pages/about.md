@@ -26,4 +26,4 @@ Over 100 volumes of *The Gem of the Mountains* have been digitized for online vi
 
 **This digital collection is in the process of being digitized. Only a limited set of the boxes are contained in this collection.**
 
-{% include feature/image.html objectid="gemphotos0642" width="75" %} 
+{% include feature/image.html objectid="gemphotos0642" %} 
