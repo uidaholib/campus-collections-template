@@ -22,12 +22,12 @@ padding: 6em
 
 This digital collection features the Women's Center newsletters and photographs from University of Idaho Special Collections and Archives Box 11 of UG 71, the Women's Center records, 1970-2013. Photographs depict the Women's Center staff, U of I students and community, events, and the Women's Center's interior. The digitized materials span from 1912-2008.
 
-{% include feature/image.html objectid="womenscenter140" width="50" %}
+{% include feature/image.html objectid="womenscenter140" %}
 
 ## About the Women's Center
 {:#about-the-women-s-center}
 
-{% include feature/image.html objectid="womenscenter124" width="50" %}
+{% include feature/image.html objectid="womenscenter124" %}
 
 The [Women's Center](https://web.archive.org/web/20241218040211/https://www.uidaho.edu/diversity/edu/womens-center) on the University of Idaho's campus served to promote gender equity in the community and provide opportunities to support, educate, and empower individuals. 
 
