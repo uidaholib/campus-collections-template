@@ -1,9 +1,9 @@
 field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date Created
 subject,,true
-campus_event,,true
-event_category,,true
-campus_organization,,true,,Campus Org
+campus_event,Campus Event,true
+event_category,Event Category,true
+campus_organization,Campus Organization,true,,Campus Org
 description,,,true
 identifier,,,true,Identifier
 donor,,,true,
