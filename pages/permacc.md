@@ -1,10 +1,10 @@
 ---
 title: Perma.cc Service
-layout: page-narrow
+layout: about
 permalink: /permacc.html
 ---
 
-## Perma.cc Service
+# Perma.cc Service
 {:.display-4}
 
 University of Idaho Library is a Registrar Library for [Perma.cc](https://perma.cc/).

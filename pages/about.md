@@ -1,15 +1,15 @@
 ---
 title: About
-layout: page-narrow
+layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 #credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-#about-featured-image: demo_006
+#about-featured-image: 
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
-heading: About University of Idaho Web Archive Collections
+#heading: About Web Archive Collections
 # paragraph text below heading in featured image
 sub-heading: 
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
@@ -17,6 +17,9 @@ sub-heading:
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
+
+# About Web Archive Collections
+{:.display-4}
 
 The [University of Idaho website](https://www.uidaho.edu/) is an important part of the institution's scholarly and cultural record, serving as a central place for communication and publishing unique materials. 
 This content is constantly changing with new updates, edits, and redesigns--reflecting the continual evolution of the institution.
@@ -40,7 +43,7 @@ Visit the [archive for www.uidaho.edu](https://web.archive.org/web/2025000000000
 
 Check our [How to Use Web Archives page]({{ '/howto.html' | relative_url }}) for more details and don't hesitate to get in touch with [Special Collections & Archives](https://www.lib.uidaho.edu/special-collections/) for help.
 
-## About Web Archiving
+## Why Web Archive?
 
 Content on the web is in constant flux: rapidly appearing, updating, and disappearing. 
 
@@ -56,6 +59,8 @@ Web links suffer from two main issues:
 
 1. Link Rot -- when a given link breaks, pointing to nothing or the wrong page.
 2. Reference Rot / Content Drift -- when content on page at a given link has changed, no longer matching the original citation.
+
+## About Web Archives
 
 For decades libraries and archives around the world have been working on the challenge of preserving web resources for current and future generations.
 As with all digital information, it is at-risk without active [digital preservation](https://en.wikipedia.org/wiki/Digital_preservation) measures (see [Why Digital Preservation is Important for Everyone (2010)](https://youtu.be/qEmmeFFafUs)).

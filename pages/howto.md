@@ -1,10 +1,10 @@
 ---
 title: How to Use Web Archives
-layout: page-narrow
+layout: about
 permalink: /howto.html
 ---
 
-## How to Use Web Archives
+# How to Use Web Archives
 {:.display-4}
 
 The majority of content captured by University of Idaho Library's web archiving efforts are contributed to [Internet Archive (IA)](https://archive.org/) and are discoverable using their [Wayback Machine](https://archive.org/web/) service.
