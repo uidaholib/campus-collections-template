@@ -1,4 +1,3 @@
-field,display_name,btn,hidden,sort_name
+field,display_name,btn,hidden,sort_name,facet_name
 date,,,true,Date
 subject,,true
-identifier,,,true,Identifier
