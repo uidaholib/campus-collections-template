@@ -3,6 +3,14 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+/* load custom font */
+@font-face {
+  font-family: 'Allan';
+  src: url('fonts/allan/allan-bold.woff2') format('woff2'), url('fonts/allan/allan-bold.woff') format('woff'), url('fonts/allan/allan-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-display:swap;
+}
+
 // make library logo bigger
 #footer-logo {
     height: 65px;
