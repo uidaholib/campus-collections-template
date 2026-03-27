@@ -9,14 +9,15 @@ condition,Condition
 format_original,Format Original,true
 dimensions,Dimensions
 subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
+location,Location,,,DCTERMS.coverage,contentLocation
 department,Department,true
 building,Building,true
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
-findingaid,Finding Aid,,true
+finding_aid,Finding Aid,,true
 identifier,Source Identifier,,,,
+format_original,Original Format,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 language,Language,,,DCTERMS.language,
