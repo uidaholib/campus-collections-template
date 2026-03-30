@@ -21,5 +21,7 @@ padding: 6em
 
 ## About the Collection
 
-The University of Idaho Student Organizations Collection is a collection of digitized historical images focused on student organizations and events at the University of Idaho's main campus in Moscow, ID. This digital collection is mostly taken from the library's Special Collections & Archive's U of I Student Organizations Collection, which is referred to as Photograph Group 2 (PG2). The collection comprises thousands of images spanning from 1893 to the early 1990s.
+The University of Idaho Student Organizations Collection is a collection of digitized historical images focused on student organizations and events at the University of Idaho's main campus in Moscow, ID. 
+
+This digital collection is mostly taken from the library's Special Collections & Archive's [U of I Student Organizations Collection](https://archiveswest.orbiscascade.org/ark:80444/xv867166), which is referred to as Photograph Group 2 (PG2). The collection comprises thousands of photographs spanning from 1893 to the early 1990s which were taken primarily by Hodgin's Studio in Moscow or by the University of Idaho Publications or Photo Services departments.
 
