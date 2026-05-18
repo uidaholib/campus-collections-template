@@ -21,7 +21,14 @@ padding: 6em
 
 ## About the Collection
 
-The University of Idaho Student Organizations Collection is a collection of digitized historical images focused on student organizations and events at the University of Idaho's main campus in Moscow, ID. 
+This collection presents a sample of digitized pictures primarily sourced from  Special Collections & Archive's [U of I Student Organizations Collection](https://archiveswest.orbiscascade.org/ark:80444/xv867166), identified internally as Photograph Group 2 (PG2). PG2 contains thousands of photographs dated as early as 1893 and covering more than 100 years of university history. Many of the photos were provided by Hodgin's Studio in Moscow, while others came from the University of Idaho Publications or Photo Services departments.  
 
-This digital collection is mostly taken from the library's Special Collections & Archive's [U of I Student Organizations Collection](https://archiveswest.orbiscascade.org/ark:80444/xv867166), which is referred to as Photograph Group 2 (PG2). The collection comprises thousands of photographs spanning from 1893 to the early 1990s which were taken primarily by Hodgin's Studio in Moscow or by the University of Idaho Publications or Photo Services departments.
+The University of Idaho Student Organizations Collection (PG2) documents student life on campus, offering a rich visual record of how students formed communities, expressed themselves, and shaped university culture. Contained in the digital collection is a wide range of organizations and activities, from academic clubs and Greek life to performing arts, athletics, and student governance. 
 
+These images illuminate the evolving social, cultural, and political dimensions of campus life, revealing how students navigated belonging, leadership, and change across generations. Researchers can use the collection to explore themes such as student activism, social life, institutional traditions, and the everyday experiences that defined the University of Idaho community. 
+
+More digital collections that explore student life through photos: 
+
+- [Argonaut Photograph Collection](https://www.lib.uidaho.edu/digital/argonautphotos/)
+- [Gem of the Mountains Yearbook Photograph Archive](https://www.lib.uidaho.edu/digital/gemphotos/)
+- [History of Theatre at the U of I](https://www.lib.uidaho.edu/digital/theatre/)
