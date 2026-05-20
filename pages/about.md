@@ -20,10 +20,10 @@ padding: 6em
 
 ## About the Collection
 
-This collection consists of black and white negatives from PG 101, the Gem of the Mountains Yearbook Photograph Collection (1948-1967). *The Gem of the Mountains* was the official yearbook of the University of Idaho from 1903 to 2004. Featured photos in this digital collection depict U of I campus life and events including past Homecoming parades, graduations, field trips, football games, performances and glimpses inside various classrooms and campus buildings. 
+This collection consists of black and white negatives from [PG 101, the Gem of the Mountains Yearbook Photograph Collection (1948-1967)](https://archiveswest.orbiscascade.org/ark:80444/xv366775). *The Gem of the Mountains* was the official yearbook of the University of Idaho from 1903 to 2004. Featured photos in this digital collection depict U of I campus life and events including past Homecoming parades, graduations, field trips, football games, performances and glimpses inside various classrooms and campus buildings. 
 
 Over 100 volumes of *The Gem of the Mountains* have been digitized for online viewing. To view these yearbooks and for more information about the publication, please see [the University of Idaho Library's Gem of the Mountains Digital Yearbook Collection](https://www.lib.uidaho.edu/digital/gem/index.html).
 
-**This digital collection is in the process of being digitized. Only a limited set of the boxes are contained in this collection.**
+**This digital collection includes only a selection of images from PG 101. Further digitization of this collection is ongoing.**
 
 {% include feature/image.html objectid="gemphotos0642" %} 
