@@ -1,0 +1,47 @@
+---
+layout: page
+custom-foot: js/tabraham-table-js.html
+title: Home
+permalink: /
+---
+
+
+<div class="row pt-4">	
+
+	<div class="col-md-7">
+        <h2>{{ site.title }}</h2>
+        <p>The Terry Abraham Web Archive preserves the writing, scholarship, and resources of Terry Abraham that were originally published on University of Idaho's early websites. The original web pages can be browsed in the table below.</p>
+        <p>Terry Abraham served as the head of Special Collections &amp; Archives for over 20 years, retiring in 2005. His work continues to be important to the library and the people that work here. More on Abraham can be found on the <a href="https://www.northwestanthropology.com/terry-abraham/" >Northwest Anthropology website</a> (<a href="https://perma.cc/B6LB-94LB">archived page</a>).
+        <p>Please note, the archived pages are out of date and may not display as originally intended. If you would like to recover a broken link, please try pasting the URL in the <a href="https://archive.org/web/" >Internet Archive Wayback Machine.</a></p>
+    </div>
+
+    <div class="col-md-5">
+        <div class="card">
+            <div class="card-body">
+                <p>The collection presents the static HTML as published in 1990's and 2000's, originally hosted at:</p> 
+                <ul>
+                    <li>http://www.uiweb.uidaho.edu/special-collections/</li>
+                    <li>http://webpages.uidaho.edu/special-collections/</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 mt-2">
+        <table id="tapapers" class="table table-striped" data-order='[[1, "desc"]]'>
+            <thead>
+                <th>Title</th>
+                <th>Year</th>
+            </thead>
+            <tbody class="table-group-divider">
+            {% for p in site.data.spec_tabraham-files %}
+            <tr>
+                <td><a href="{{ p.file | relative_url }}" >{{ p.title }}</a></td>
+                <td>{{ p.year }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    
+</div>

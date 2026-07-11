@@ -1,0 +1,10 @@
+<!-- load DataTables with jquery bundled -->
+<script type="text/javascript" language="javascript" src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/datatables/datatables.min.js"></script>
+<script>
+/* use jquery to initialize DataTables and load collection data */
+$(document).ready( function () {
+    $('#tapapers').DataTable( {
+        "paging": false
+    });
+});
+</script>
