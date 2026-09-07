@@ -18,17 +18,26 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About CollectionBuilder CSV
+## About the Collection
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+Malcolm M. Renfrew Interdisciplinary Colloquium is a long standing lecture series that brings together distinguished members of the university to present their teaching and research across a wide array of disciplines.
+Now in its third decade, the colloquium showcases how each academic field approaches inquiry — from the questions it seeks to answer to the methods and vocabularies it uses. 
+This exploration helps foster a deeper appreciation for the intellectual diversity that defines a university community.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+This collection provides information about of hundreds of MRIC presentations stretching back to 2010, allowing users to explore this unique record of scholarship, discussion, and interdisciplinary connections on campus.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+Please visit the [MRIC page](https://www.uidaho.edu/letters-arts-social-sciences/news-events/renfrew-colloquium) for current events and information.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+## Professor Malcolm M. Renfrew
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+The colloquium is named in honor of Professor Malcolm M. Renfrew (1910-2013), esteemed chemist, teacher, artist, trombonist, philanthropist, and Vandal. 
+Professor Renfrew has combined an interest in science with enduring interests in the arts and humanities. 
+An important and influential chemist and teacher, Professor Renfrew is also an accomplished painter. 
+His robust curiosity made Professor Renfrew a fixture in the early years of the University Interdisciplinary Colloquium, providing important and helpful guidance to the series directors. 
+The series was renamed after Professor Renfrew in 2010 on his 100th birthday.
+
+## Collection Data
+
+The core of this collection is extracted from archived web pages captured in 2015 when the university migrated CMS platforms.
+Due to issues with the original web pages, including missing and corrupted content, the data is inconsistent and incomplete.
+The Library is working to enrich and improve the records and capture information about new events going forward.
