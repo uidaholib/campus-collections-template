@@ -19,6 +19,10 @@ http://www.uidaho.edu/class/mric
 
 https://www.uidaho.edu/letters-arts-social-sciences/news-events/renfrew-colloquium
 
+## archives to check
+
+- https://web.archive.org/web/20241220054030/https://www.uidaho.edu/class/mric/archive
+- https://web.archive.org/web/20241220141025/https://www.uidaho.edu/class/mric/archive/2021-fall
 
 ## Descriptions
 

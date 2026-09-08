@@ -1,0 +1,36 @@
+---
+layout: page
+title: Home
+permalink: /
+banner-featured-image: false
+---
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+<div class="row">
+
+  <div class="col-md-8">
+
+    {% include index/description.html %}
+
+    {% include index/featured-terms.html field="affiliation" title="Affiliations" btn-color="clearwater" max=25 %}
+
+    {% include index/featured-terms.html field="presenter" title="Presenters" btn-color="palouse" max=25 %}
+    
+  </div>
+  <div class="col-md-4">  
+
+    {% include index/time.html %}
+    
+    {% include index/content.html %}
+
+    <div class="card mb-3 card-body">
+      <img class="img-fluid" src="https://lib.uidaho.edu/digital/mric/images/221x321-UIC-graphic.jpg" alt="stylized graphic of two people kneeling near an orb of light with gears">
+    </div>
+
+  </div>
+  <div class="col-md-12">
+
+    {% include index/data-download.html %}
+
+  </div>
+
+</div>
