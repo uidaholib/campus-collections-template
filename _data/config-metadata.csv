@@ -1,19 +1,10 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-archival_date,Date Created (Archival Standard)
-date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
+presenter,Presenter,,,DCTERMS.creator,creator
+affiliation,Affiliations,true,
+date,Date,,,DCTERMS.date,dateCreated
+academic_year,Academic Year,true,
 description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,DCTERMS.coverage,contentLocation
-idaho_county,Idaho County,,,,,
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-finding_aid,Finding Aid,,true
-identifier,Source Identifier,,,,
-format_original,Original Format,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
-language,Language,,,DCTERMS.language,
-rightsstatement,,,,DCTERMS.rights,license
+biography,Biography,
+youtube,Video Link,,true,
+original_link,Original Link,

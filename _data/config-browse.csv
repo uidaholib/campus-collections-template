@@ -1,7 +1,6 @@
 field,display_name,btn,hidden,sort_name,facet_name
-date,Date,,,Date Created
+presenter,Presenter,
+affiliation,,true,
+date,,,true,Date,
+academic_year,Academic Year,true,,Academic Year,
 description,,,true,
-creator,Creator,,,
-subject,,true
-location,,true,,,
-identifier,,,true,Identifier

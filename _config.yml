@@ -28,14 +28,14 @@ central-search:
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Malcolm M. Renfrew Interdisciplinary Colloquium Archive
+title: Renfrew Colloquium Archive
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: Reflecting the diverse expertise and creativity of the University of Idaho community
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "The Malcolm M. Renfrew Interdisciplinary Colloquium Archive presents listings of past lectures, providing an unique record of scholarship, discussion, and interdisciplinary connections on campus."
+description: "The Malcolm Renfrew Interdisciplinary Colloquium Archive presents listings of past lectures and events, providing an unique record of scholarship, discussion, and connections across campus."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: university of idaho; Malcolm M. Renfrew Interdisciplinary Colloquium; MRIC; scholarship
+keywords: university of idaho; Malcolm Renfrew Interdisciplinary Colloquium; MRIC; scholarship
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 
