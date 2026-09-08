@@ -57,20 +57,21 @@ function makeCard(obj) {
     const itemHref = `{{ '/items/' | relative_url }}${ obj.parent ? obj.parent + ".html#" + obj.id : obj.id + ".html"}`;
     
     let card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
-    
+    /*
     // Image or icon
     if(obj.img) {
         card += `<a href="${itemHref}"><img class="card-img-top lazyload" src="${placeholder}" data-src="${obj.img}" alt="${obj.alt || obj.title}"></a>`;
-    }
+    }*/
     
     // Title
-    card += `<div class="card-body text-center"><h3 class="card-title h4"><a href="${itemHref}" class="text-dark">${obj.title}</a></h3>`;
-    
+    card += `<div class="card-body "><h3 class="card-title h4"><a href="${itemHref}" class="text-dark">${obj.title}</a></h3>`;
+    /*
     // Icon for items without images
     if(!obj.img) {
         const thumbIcon = getIcon(obj.display_template, obj.format, "thumb");
         if(thumbIcon) card += `<p><a href="${itemHref}">${thumbIcon}</a></p>`;
     }
+    */
     
     // Field data
     card += '<p class="card-text">';
@@ -81,7 +82,7 @@ function makeCard(obj) {
         const btns = obj[{{ f.field | jsonify }}].split(";");
         btns.forEach(btn => {
             if(btn.trim()) {
-                card += `<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ page.url | relative_url }}#{{ f.field }}:${encodeURIComponent(btn.trim())}">${btn.trim()}</a>`;
+                card += `<a class="btn btn-sm btn-outline-pride-gold m-1 text-wrap" href="{{ page.url | relative_url }}#{{ f.field }}:${encodeURIComponent(btn.trim())}">${btn.trim()}</a>`;
             }
         });
         {% else %}
@@ -92,11 +93,12 @@ function makeCard(obj) {
     {% endunless %}{% endfor %}
     card += '</p>';
     
+    /*
     // Media type badge
     if(obj.display_template) {
         const mediaIcon = getIcon(obj.display_template, obj.format, "hidden");
         card += `<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ page.url | relative_url }}#display_template:${encodeURIComponent(obj.display_template)}">${obj.display_template.toUpperCase().replace("_"," ")} ${mediaIcon}</a></small></p>`;
-    }
+    }*/
     
     card += `<hr><a href="${itemHref}" class="btn btn-sm btn-light" title="link to ${obj.title}">View Full Record</a></div></div></div>`;
     return card;
