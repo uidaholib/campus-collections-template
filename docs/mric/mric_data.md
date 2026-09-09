@@ -3,9 +3,12 @@
 The original digital collection was based on a web harvest in 2015 when the University website was being migrated and older content deleted. 
 This data was parsed into a spreadsheet from the body text of those web pages. 
 The data is inconsistent and incomplete, based on issues with the original pages and missing content that went away before the capture.
-
 The column "body" preserves the HTML from the original pages. 
 In some cases it does not match the event listing (this records have the "record_type" of "event-issues"). 
+
+Internet Archive contains pages covering 2010 - Fall 2015.
+The MRIC website was not updated from Fall 2016 to Fall 2020.
+Events were added Fall 2020 - Spring 2022, and then was not updated again.
 
 The "mric_listings.csv" are semester lists that can help verify and improve the individual event records.
 
@@ -13,16 +16,10 @@ More recent events (2024-2026) were added from data provided from the Library's 
 
 ## websites
 
-Old digital collection (web archive style), https://github.com/uidaholib/mric_source
-
-http://www.uidaho.edu/class/mric
-
-https://www.uidaho.edu/letters-arts-social-sciences/news-events/renfrew-colloquium
-
-## archives to check
-
+- Old digital collection (web archive style), https://github.com/uidaholib/mric_source
+- Original URL: http://www.uidaho.edu/class/mric
+- URL 2026: https://www.uidaho.edu/letters-arts-social-sciences/news-events/renfrew-colloquium
 - https://web.archive.org/web/20241220054030/https://www.uidaho.edu/class/mric/archive
-- https://web.archive.org/web/20241220141025/https://www.uidaho.edu/class/mric/archive/2021-fall
 
 ## Descriptions
 

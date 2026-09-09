@@ -20,7 +20,7 @@ padding: 1em
 
 ## About the Collection
 
-This collection provides information about of hundreds of presentations hosted as part of the Malcolm Renfrew Interdisciplinary Colloquium.
+This collection provides information about hundreds of presentations hosted as part of the Malcolm Renfrew Interdisciplinary Colloquium.
 The records stretch back to 2002, allowing users to explore this unique representation of scholarship, discussion, and interdisciplinary connections across campus.
 
 {% include feature/blockquote.html text="The Malcolm Renfrew Interdisciplinary Colloquium is a cornerstone lecture series at University of Idaho that brings together distinguished members of the university to present their teaching and research across a wide array of disciplines. Now in its third decade, the colloquium showcases how each academic field approaches inquiry — from the questions it seeks to answer to the methods and vocabularies it uses. This exploration helps foster a deeper appreciation for the intellectual diversity that defines a university community." source="Renfrew Colloquium" link="https://www.uidaho.edu/letters-arts-social-sciences/news-events/renfrew-colloquium" archived-at="https://perma.cc/9B9Q-E8VG" %}
